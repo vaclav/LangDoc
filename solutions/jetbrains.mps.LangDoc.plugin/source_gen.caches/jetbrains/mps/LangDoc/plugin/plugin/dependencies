@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="jetbrains.mps.LangDoc.plugin.plugin.DocBitActions_ActionGroup">
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.plugins.actions.GeneratedActionGroup" />
+  </dependency>
+  <dependency className="jetbrains.mps.LangDoc.plugin.plugin.DocBitKeys_KeymapChanges">
+    <classNode dependClassName="com.intellij.openapi.actionSystem.KeyboardShortcut" />
+    <classNode dependClassName="com.intellij.openapi.actionSystem.Shortcut" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="javax.swing.KeyStroke" />
+    <classNode extendsClassName="jetbrains.mps.plugins.actions.BaseKeymapChanges" />
+  </dependency>
+  <dependency className="jetbrains.mps.LangDoc.plugin.plugin.HideDocBits_Action">
+    <classNode dependClassName="com.intellij.openapi.actionSystem.AnActionEvent" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="javax.swing.Icon" />
+    <classNode dependClassName="jetbrains.mps.ide.editor.MPSEditorDataKeys" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.update.Updater" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode extendsClassName="jetbrains.mps.workbench.action.BaseAction" />
+  </dependency>
+  <dependency className="jetbrains.mps.LangDoc.plugin.plugin.MacOSX105_KeymapChanges">
+    <classNode dependClassName="com.intellij.openapi.actionSystem.KeyboardShortcut" />
+    <classNode dependClassName="com.intellij.openapi.actionSystem.Shortcut" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="javax.swing.KeyStroke" />
+    <classNode extendsClassName="jetbrains.mps.plugins.actions.BaseKeymapChanges" />
+  </dependency>
+  <dependency className="jetbrains.mps.LangDoc.plugin.plugin.MacOSX_KeymapChanges">
+    <classNode dependClassName="com.intellij.openapi.actionSystem.KeyboardShortcut" />
+    <classNode dependClassName="com.intellij.openapi.actionSystem.Shortcut" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="javax.swing.KeyStroke" />
+    <classNode extendsClassName="jetbrains.mps.plugins.actions.BaseKeymapChanges" />
+  </dependency>
+  <dependency className="jetbrains.mps.LangDoc.plugin.plugin.Plugin_ApplicationPlugin">
+    <classNode dependClassName="com.intellij.openapi.extensions.PluginId" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.LangDoc.plugin.plugin.DocBitActions_ActionGroup" />
+    <classNode dependClassName="jetbrains.mps.LangDoc.plugin.plugin.DocBitKeys_KeymapChanges" />
+    <classNode dependClassName="jetbrains.mps.LangDoc.plugin.plugin.HideDocBits_Action" />
+    <classNode dependClassName="jetbrains.mps.LangDoc.plugin.plugin.MacOSX105_KeymapChanges" />
+    <classNode dependClassName="jetbrains.mps.LangDoc.plugin.plugin.MacOSX_KeymapChanges" />
+    <classNode dependClassName="jetbrains.mps.LangDoc.plugin.plugin.ShowDocBits_Action" />
+    <classNode dependClassName="jetbrains.mps.ide.actions.View_ActionGroup" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.plugins.actions.BaseKeymapChanges" />
+    <classNode extendsClassName="jetbrains.mps.plugins.applicationplugins.BaseApplicationPlugin" />
+  </dependency>
+  <dependency className="jetbrains.mps.LangDoc.plugin.plugin.ShowDocBits_Action">
+    <classNode dependClassName="com.intellij.openapi.actionSystem.AnActionEvent" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="javax.swing.Icon" />
+    <classNode dependClassName="jetbrains.mps.ide.editor.MPSEditorDataKeys" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.update.Updater" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode extendsClassName="jetbrains.mps.workbench.action.BaseAction" />
+  </dependency>
+</dependenciesRoot>
+

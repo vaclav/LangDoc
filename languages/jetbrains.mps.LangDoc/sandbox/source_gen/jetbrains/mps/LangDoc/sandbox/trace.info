@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <root nodeRef="r:d496a934-44f2-44f3-ba61-902e6613520f(jetbrains.mps.LangDoc.sandbox)/6914907434145734272">
+    <file name="Foo.java">
+      <node id="6914907434145734332" at="7,0,8,0" concept="0" trace="bar" />
+      <unit id="6914907434145734272" at="6,0,9,0" name="jetbrains.mps.LangDoc.sandbox.Foo" />
+    </file>
+  </root>
+</debug-info>
+

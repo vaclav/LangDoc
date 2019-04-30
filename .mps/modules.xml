@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/devkits/jetbrains.mps.LangDocKit/jetbrains.mps.LangDocKit.devkit" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/jetbrains.mps.LangDoc.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/sandbox/jetbrains.mps.LangDoc.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/jetbrains.mps.LangDoc.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.plugin/jetbrains.mps.LangDoc.plugin.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

@@ -4,7 +4,7 @@
   <category>Custom Languages</category>
   <description>MPS language documentation support</description>
   <version>0.1</version>
-  <vendor url="https://github.com/vaclav/CodeReviews" logo="/MPS_16.png">Vaclav Pech</vendor>
+  <vendor url="https://github.com/vaclav/LangDoc" logo="/MPS_16.png">Vaclav Pech</vendor>
   <idea-version since-build="191.1" until-build="192.1"/>
 
   <depends>jetbrains.mps.core</depends>

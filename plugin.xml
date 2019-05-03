@@ -3,7 +3,7 @@
   <name>LangDoc</name>
   <category>Custom Languages</category>
   <description>MPS language documentation support</description>
-  <version>0.1</version>
+  <version>0.2</version>
   <vendor url="https://github.com/vaclav/LangDoc" logo="/MPS_16.png">Vaclav Pech</vendor>
   <idea-version since-build="191.1" until-build="192.1"/>
 

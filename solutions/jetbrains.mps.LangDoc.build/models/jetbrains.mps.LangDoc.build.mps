@@ -146,7 +146,7 @@
       </node>
       <node concept="3_J27D" id="5ZQFUMN3sIw" role="m$_w8">
         <node concept="3Mxwew" id="5ZQFUMN3sIx" role="3MwsjC">
-          <property role="3MwjfP" value="1.0" />
+          <property role="3MwjfP" value="0.2" />
         </node>
       </node>
       <node concept="m$f5U" id="5ZQFUMN3sIy" role="m$_yh">

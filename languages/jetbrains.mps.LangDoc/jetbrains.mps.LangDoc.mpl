@@ -40,14 +40,14 @@
         <module reference="a23383a3-9564-4399-8643-72063c6111dc(jetbrains.mps.LangDoc)" version="0" />
         <module reference="939afb19-cddd-447b-9572-147596291f4b(jetbrains.mps.LangDoc#01)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
+        <module reference="c7fb639f-be78-4307-89b0-b5959c3fa8c8(jetbrains.mps.lang.text)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>
   </generators>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">c7fb639f-be78-4307-89b0-b5959c3fa8c8(jetbrains.mps.lang.text)</dependency>
-    <dependency reexport="false">a23383a3-9564-4399-8643-72063c6111dc(jetbrains.mps.LangDoc)</dependency>
+    <dependency reexport="true">c7fb639f-be78-4307-89b0-b5959c3fa8c8(jetbrains.mps.lang.text)</dependency>
     <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>
   </dependencies>
   <languageVersions>

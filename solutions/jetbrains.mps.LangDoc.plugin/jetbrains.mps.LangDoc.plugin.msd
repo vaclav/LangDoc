@@ -37,6 +37,7 @@
     <module reference="a23383a3-9564-4399-8643-72063c6111dc(jetbrains.mps.LangDoc)" version="0" />
     <module reference="d6916875-d700-4667-b516-830a5ba89d9a(jetbrains.mps.LangDoc.plugin)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
+    <module reference="c7fb639f-be78-4307-89b0-b5959c3fa8c8(jetbrains.mps.lang.text)" version="0" />
   </dependencyVersions>
 </solution>
 

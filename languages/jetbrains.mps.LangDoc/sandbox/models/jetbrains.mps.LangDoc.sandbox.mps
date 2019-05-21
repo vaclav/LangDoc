@@ -30,7 +30,7 @@
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
     <language id="a23383a3-9564-4399-8643-72063c6111dc" name="jetbrains.mps.LangDoc">
-      <concept id="6914907434145664119" name="jetbrains.mps.LangDoc.structure.DocumentationBit" flags="ng" index="3H0Qfr">
+      <concept id="6914907434145664119" name="jetbrains.mps.LangDoc.structure.DocBit" flags="ng" index="3H0Qfr">
         <child id="6914907434145664126" name="text" index="3H0Qfi" />
       </concept>
     </language>
@@ -67,7 +67,10 @@
         <node concept="1Pa9Pv" id="5ZQFUMN2NRn" role="3H0Qfi">
           <node concept="1PaTwC" id="5ZQFUMN2NRo" role="1PaQFQ">
             <node concept="3oM_SD" id="5ZQFUMN2NRp" role="1PaTwD">
-              <property role="3oM_SC" value="safadf" />
+              <property role="3oM_SC" value="Another" />
+            </node>
+            <node concept="3oM_SD" id="54jCJjAYn$b" role="1PaTwD">
+              <property role="3oM_SC" value="comment" />
             </node>
           </node>
         </node>
@@ -78,7 +81,7 @@
       <node concept="1Pa9Pv" id="5ZQFUMN3nM2" role="3H0Qfi">
         <node concept="1PaTwC" id="5ZQFUMN3nM3" role="1PaQFQ">
           <node concept="3oM_SD" id="5ZQFUMN3nM4" role="1PaTwD">
-            <property role="3oM_SC" value="dfsfsdf" />
+            <property role="3oM_SC" value="Comment" />
           </node>
         </node>
       </node>

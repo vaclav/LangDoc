@@ -208,6 +208,20 @@
     <node concept="2aJ2om" id="5ZQFUMN2NTe" role="CpUAK">
       <ref role="2$4xQ3" node="5ZQFUMN2NTb" resolve="InlineDocBits" />
     </node>
+    <node concept="3EZMnI" id="54jCJjAV80Z" role="6VMZX">
+      <node concept="2iRkQZ" id="54jCJjAV810" role="2iSdaV" />
+      <node concept="3EZMnI" id="54jCJjAV811" role="3EZMnx">
+        <node concept="2iRfu4" id="54jCJjAV812" role="2iSdaV" />
+        <node concept="VPM3Z" id="54jCJjAV813" role="3F10Kt" />
+        <node concept="3F0ifn" id="54jCJjAV814" role="3EZMnx">
+          <property role="3F0ifm" value="Documentation:" />
+        </node>
+        <node concept="3F1sOY" id="54jCJjAV815" role="3EZMnx">
+          <property role="1cu_pB" value="1" />
+          <ref role="1NtTu8" to="q43j:5ZQFUMMXsLY" resolve="text" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="2ABfQD" id="5ZQFUMN2NTa">
     <property role="TrG5h" value="DocumentationHints" />

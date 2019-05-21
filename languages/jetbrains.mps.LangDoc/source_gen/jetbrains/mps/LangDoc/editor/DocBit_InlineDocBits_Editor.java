@@ -20,4 +20,7 @@ public class DocBit_InlineDocBits_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return new DocBit_InlineDocBits_EditorBuilder_a(editorContext, node).createCell();
   }
+  public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
+    return new DocBit_InlineDocBits_InspectorBuilder_a(editorContext, node).createCell();
+  }
 }

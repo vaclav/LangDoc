@@ -2,7 +2,7 @@
 <model ref="r:06533f0c-4ad2-4b94-8af9-1358a0794161(jetbrains.mps.LangDoc.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -27,9 +27,7 @@
       <concept id="5944657839000868711" name="jetbrains.mps.lang.editor.structure.ConceptEditorContextHints" flags="ig" index="2ABfQD">
         <child id="5944657839000877563" name="hints" index="2ABdcP" />
       </concept>
-      <concept id="3547227755871693971" name="jetbrains.mps.lang.editor.structure.PredefinedSelector" flags="ng" index="2B6iha">
-        <property id="2162403111523065396" name="cellId" index="1lyBwo" />
-      </concept>
+      <concept id="3547227755871693971" name="jetbrains.mps.lang.editor.structure.PredefinedSelector" flags="ng" index="2B6iha" />
       <concept id="5944657839003601246" name="jetbrains.mps.lang.editor.structure.ConceptEditorHintDeclaration" flags="ig" index="2BsEeg">
         <property id="168363875802087287" name="showInUI" index="2gpH_U" />
         <property id="5944657839012629576" name="presentation" index="2BUmq6" />
@@ -123,7 +121,7 @@
     <node concept="3EZMnI" id="5ZQFUMMXFnT" role="2wV5jI">
       <node concept="3F0ifn" id="5ZQFUMMXFo0" role="3EZMnx">
         <property role="3F0ifm" value="DocBit" />
-        <property role="1cu_pB" value="1" />
+        <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
         <ref role="1ERwB7" node="5ZQFUMMXFoK" resolve="RemoveDocBit" />
         <ref role="1k5W1q" to="tpco:3VARyd8XcQs" resolve="Comment" />
       </node>
@@ -139,7 +137,7 @@
           <property role="3F0ifm" value="Documentation:" />
         </node>
         <node concept="3F1sOY" id="5ZQFUMMXFot" role="3EZMnx">
-          <property role="1cu_pB" value="1" />
+          <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
           <ref role="1NtTu8" to="q43j:5ZQFUMMXsLY" resolve="text" />
         </node>
       </node>
@@ -149,7 +147,7 @@
     <property role="TrG5h" value="RemoveDocBit" />
     <ref role="1h_SK9" to="q43j:5ZQFUMMXsLR" resolve="DocBit" />
     <node concept="1hA7zw" id="5ZQFUMMXFoL" role="1h_SK8">
-      <property role="1hAc7j" value="delete_action_id" />
+      <property role="1hAc7j" value="g_hAxAO/delete_action_id" />
       <node concept="1hAIg9" id="5ZQFUMMXFoM" role="1hA7z_">
         <node concept="3clFbS" id="5ZQFUMMXFoN" role="2VODD2">
           <node concept="3cpWs8" id="5ZQFUMMYikJ" role="3cqZAp">
@@ -175,9 +173,7 @@
               </node>
               <node concept="1OKiuA" id="5ZQFUMMXHeG" role="2OqNvi">
                 <node concept="1Q80Hx" id="5ZQFUMMXHgy" role="lBI5i" />
-                <node concept="2B6iha" id="5ZQFUMMXHpx" role="lGT1i">
-                  <property role="1lyBwo" value="first" />
-                </node>
+                <node concept="2B6iha" id="5ZQFUMMXHpx" role="lGT1i" />
                 <node concept="3cmrfG" id="5ZQFUMMYiQ4" role="3dN3m$">
                   <property role="3cmrfH" value="0" />
                 </node>
@@ -198,7 +194,7 @@
           <property role="3F0ifm" value="DocBit:" />
         </node>
         <node concept="3F1sOY" id="5ZQFUMN2NSH" role="3EZMnx">
-          <property role="1cu_pB" value="1" />
+          <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
           <ref role="1NtTu8" to="q43j:5ZQFUMMXsLY" resolve="text" />
         </node>
       </node>
@@ -217,7 +213,7 @@
           <property role="3F0ifm" value="Documentation:" />
         </node>
         <node concept="3F1sOY" id="54jCJjAV815" role="3EZMnx">
-          <property role="1cu_pB" value="1" />
+          <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
           <ref role="1NtTu8" to="q43j:5ZQFUMMXsLY" resolve="text" />
         </node>
       </node>

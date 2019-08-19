@@ -3,9 +3,9 @@
   <name>LangDoc</name>
   <category>Custom Languages</category>
   <description>MPS language documentation support</description>
-  <version>0.3</version>
+  <version>2019.2</version>
   <vendor url="https://github.com/vaclav/LangDoc" logo="/MPS_16.png">Vaclav Pech</vendor>
-  <idea-version since-build="191.1" until-build="192.1"/>
+  <idea-version since-build="192.1" until-build="193.1"/>
 
   <depends>jetbrains.mps.core</depends>
 

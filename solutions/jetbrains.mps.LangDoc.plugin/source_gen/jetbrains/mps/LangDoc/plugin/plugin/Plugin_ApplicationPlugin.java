@@ -4,6 +4,7 @@ package jetbrains.mps.LangDoc.plugin.plugin;
 
 import jetbrains.mps.plugins.applicationplugins.BaseApplicationPlugin;
 import com.intellij.openapi.extensions.PluginId;
+import org.jetbrains.annotations.NotNull;
 import jetbrains.mps.ide.actions.View_ActionGroup;
 import java.util.List;
 import jetbrains.mps.plugins.actions.BaseKeymapChanges;
@@ -11,18 +12,22 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 
 public class Plugin_ApplicationPlugin extends BaseApplicationPlugin {
-  private PluginId myId = PluginId.getId("jetbrains.mps.LangDoc.plugin");
+  private final PluginId myId = PluginId.getId("jetbrains.mps.LangDoc.plugin");
+
   public Plugin_ApplicationPlugin() {
   }
+
+  @NotNull
   public PluginId getId() {
     return myId;
   }
+
   public void createGroups() {
     // actions w/o parameters 
     addAction(new HideDocBits_Action());
     addAction(new ShowDocBits_Action());
     // groups 
-    addGroup(new DocBitActions_ActionGroup());
+    addGroup(new DocBitActions_ActionGroup(this));
   }
   public void adjustRegularGroups() {
     insertGroupIntoAnother(DocBitActions_ActionGroup.ID, View_ActionGroup.ID, null);

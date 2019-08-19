@@ -12,7 +12,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.Collections;
 import jetbrains.mps.intentions.AbstractIntentionExecutable;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
@@ -22,6 +21,9 @@ import jetbrains.mps.editor.runtime.selection.SelectionUtil;
 import jetbrains.mps.openapi.editor.selection.SelectionManager;
 import jetbrains.mps.openapi.editor.update.Updater;
 import jetbrains.mps.openapi.intentions.IntentionDescriptor;
+import org.jetbrains.mps.openapi.language.SConcept;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public final class ToggleDocumentationBit_Intention extends AbstractIntentionDescriptor implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
@@ -40,7 +42,7 @@ public final class ToggleDocumentationBit_Intention extends AbstractIntentionDes
     return true;
   }
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return ListSequence.fromList(SNodeOperations.getNodeAncestors(node, MetaAdapterFactory.getConcept(0xa23383a395644399L, 0x864372063c6111dcL, 0x5ff6afacb2f5cc77L, "jetbrains.mps.LangDoc.structure.DocBit"), true)).isEmpty();
+    return ListSequence.fromList(SNodeOperations.getNodeAncestors(node, CONCEPTS.DocBit$45, true)).isEmpty();
   }
   @Override
   public boolean isSurroundWith() {
@@ -48,7 +50,7 @@ public final class ToggleDocumentationBit_Intention extends AbstractIntentionDes
   }
   public Collection<IntentionExecutable> instances(final SNode node, final EditorContext context) {
     if (myCachedExecutable == null) {
-      myCachedExecutable = Collections.<IntentionExecutable>singletonList(new ToggleDocumentationBit_Intention.IntentionImplementation());
+      myCachedExecutable = Collections.<IntentionExecutable>singletonList(new IntentionImplementation());
     }
     return myCachedExecutable;
   }
@@ -57,16 +59,16 @@ public final class ToggleDocumentationBit_Intention extends AbstractIntentionDes
     }
     @Override
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0xa23383a395644399L, 0x864372063c6111dcL, 0x5ff6afacb2f5cc77L, "jetbrains.mps.LangDoc.structure.DocBit"))) == null) ? "Add a DocBit" : "Remove a DocBit");
+      return ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$45)) == null) ? "Add a DocBit" : "Remove a DocBit");
     }
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
-      if ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0xa23383a395644399L, 0x864372063c6111dcL, 0x5ff6afacb2f5cc77L, "jetbrains.mps.LangDoc.structure.DocBit"))) == null)) {
-        AttributeOperations.createAndSetAttrbiute(node, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0xa23383a395644399L, 0x864372063c6111dcL, 0x5ff6afacb2f5cc77L, "jetbrains.mps.LangDoc.structure.DocBit")), MetaAdapterFactory.getConcept(0xa23383a395644399L, 0x864372063c6111dcL, 0x5ff6afacb2f5cc77L, "jetbrains.mps.LangDoc.structure.DocBit"));
-        SNode t = SLinkOperations.setNewChild(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0xa23383a395644399L, 0x864372063c6111dcL, 0x5ff6afacb2f5cc77L, "jetbrains.mps.LangDoc.structure.DocBit"))), MetaAdapterFactory.getContainmentLink(0xa23383a395644399L, 0x864372063c6111dcL, 0x5ff6afacb2f5cc77L, 0x5ff6afacb2f5cc7eL, "text"), null);
-        SNode l = SLinkOperations.addNewChild(t, MetaAdapterFactory.getContainmentLink(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e5619f411L, 0x2331694e561a03b8L, "lines"), null);
-        SLinkOperations.addNewChild(l, MetaAdapterFactory.getContainmentLink(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e561af166L, 0x2331694e561af167L, "elements"), MetaAdapterFactory.getConcept(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x229012ddae35f04L, "jetbrains.mps.lang.text.structure.Word"));
-        SelectionUtil.selectLabelCellAnSetCaret(editorContext, AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0xa23383a395644399L, 0x864372063c6111dcL, 0x5ff6afacb2f5cc77L, "jetbrains.mps.LangDoc.structure.DocBit"))), SelectionManager.FIRST_ERROR_CELL + "|" + SelectionManager.FOCUS_POLICY_CELL + "|" + SelectionManager.FIRST_EDITABLE_CELL + "|" + SelectionManager.FIRST_CELL, 0);
+      if ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$45)) == null)) {
+        AttributeOperations.createAndSetAttrbiute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$45), CONCEPTS.DocBit$45);
+        SNode t = SLinkOperations.setNewChild(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$45)), LINKS.text$TOU_, null);
+        SNode l = SLinkOperations.addNewChild(t, LINKS.lines$$cru, null);
+        SLinkOperations.addNewChild(l, LINKS.elements$eRew, CONCEPTS.Word$AM);
+        SelectionUtil.selectLabelCellAnSetCaret(editorContext, AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$45)), SelectionManager.FIRST_ERROR_CELL + "|" + SelectionManager.FOCUS_POLICY_CELL + "|" + SelectionManager.FIRST_EDITABLE_CELL + "|" + SelectionManager.FIRST_CELL, 0);
 
         Updater updater = editorContext.getEditorComponent().getUpdater();
         String[] initialEditorHints = updater.getInitialEditorHints();
@@ -79,7 +81,7 @@ public final class ToggleDocumentationBit_Intention extends AbstractIntentionDes
         }
         editorContext.openInspector();
       } else {
-        AttributeOperations.setAttribute(node, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0xa23383a395644399L, 0x864372063c6111dcL, 0x5ff6afacb2f5cc77L, "jetbrains.mps.LangDoc.structure.DocBit")), null);
+        AttributeOperations.setAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$45), null);
         SelectionUtil.selectLabelCellAnSetCaret(editorContext, node, SelectionManager.FIRST_CELL, 0);
 
       }
@@ -88,5 +90,16 @@ public final class ToggleDocumentationBit_Intention extends AbstractIntentionDes
     public IntentionDescriptor getDescriptor() {
       return ToggleDocumentationBit_Intention.this;
     }
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept DocBit$45 = MetaAdapterFactory.getConcept(0xa23383a395644399L, 0x864372063c6111dcL, 0x5ff6afacb2f5cc77L, "jetbrains.mps.LangDoc.structure.DocBit");
+    /*package*/ static final SConcept Word$AM = MetaAdapterFactory.getConcept(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x229012ddae35f04L, "jetbrains.mps.lang.text.structure.Word");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink text$TOU_ = MetaAdapterFactory.getContainmentLink(0xa23383a395644399L, 0x864372063c6111dcL, 0x5ff6afacb2f5cc77L, 0x5ff6afacb2f5cc7eL, "text");
+    /*package*/ static final SContainmentLink lines$$cru = MetaAdapterFactory.getContainmentLink(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e5619f411L, 0x2331694e561a03b8L, "lines");
+    /*package*/ static final SContainmentLink elements$eRew = MetaAdapterFactory.getContainmentLink(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e561af166L, 0x2331694e561af167L, "elements");
   }
 }

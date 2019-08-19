@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-9bm7ompvgezh1u0key204g3nt25yxwp">
+<product version="3" modelHash="-cqj4vsqobkg5he63doa3tvtkbcrux00">
   <files names="DocBit_Editor.java:DocBit_EditorBuilder_a.java:DocBit_InlineDocBits_Editor.java:DocBit_InlineDocBits_EditorBuilder_a.java:DocBit_InlineDocBits_InspectorBuilder_a.java:DocBit_InspectorBuilder_a.java:EditorAspectDescriptorImpl.java:RemoveDocBit.java" />
 </product>
 

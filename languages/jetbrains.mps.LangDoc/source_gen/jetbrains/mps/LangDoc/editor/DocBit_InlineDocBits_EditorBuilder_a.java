@@ -73,14 +73,14 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createRefNode_0() {
-    SingleRoleCellProvider provider = new textSingleRoleHandler_wq8h9k_b0a(myNode, LINKS.text$TOU_, getEditorContext());
+    SingleRoleCellProvider provider = new textSingleRoleHandler_wq8h9k_b0a_0(myNode, LINKS.text$TOU_, getEditorContext());
     return provider.createCell();
   }
-  private static class textSingleRoleHandler_wq8h9k_b0a extends SingleRoleCellProvider {
+  private static class textSingleRoleHandler_wq8h9k_b0a_0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public textSingleRoleHandler_wq8h9k_b0a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public textSingleRoleHandler_wq8h9k_b0a_0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }

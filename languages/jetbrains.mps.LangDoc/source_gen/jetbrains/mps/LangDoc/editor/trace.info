@@ -350,9 +350,9 @@
       <node id="6914907434147069459" at="70,100,71,48" concept="1" />
       <node id="6914907434147069459" at="71,48,72,34" concept="1" />
       <node id="6914907434147069459" at="72,34,73,22" concept="6" />
-      <node id="6914907434147069435" at="75,40,76,120" concept="5" />
-      <node id="6914907434147069435" at="76,120,77,33" concept="6" />
-      <node id="6914907434147069435" at="83,119,84,38" concept="11" />
+      <node id="6914907434147069435" at="75,40,76,122" concept="5" />
+      <node id="6914907434147069435" at="76,122,77,33" concept="6" />
+      <node id="6914907434147069435" at="83,121,84,38" concept="11" />
       <node id="6914907434147069435" at="84,38,85,25" concept="1" />
       <node id="6914907434147069435" at="90,28,91,20" concept="6" />
       <node id="6914907434147069435" at="94,55,95,76" concept="5" />
@@ -385,7 +385,7 @@
       <node id="6914907434147069435" at="129,0,132,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="6914907434147069435" at="35,0,39,0" concept="0" trace="DocBit_InlineDocBits_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6914907434147069435" at="75,0,79,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6914907434147069435" at="83,0,87,0" concept="0" trace="textSingleRoleHandler_wq8h9k_b0a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="6914907434147069435" at="83,0,87,0" concept="0" trace="textSingleRoleHandler_wq8h9k_b0a_0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6914907434147069435" at="40,0,45,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6914907434147069435" at="88,0,93,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6914907434147069502" at="133,0,138,0" concept="4" trace="createAttributedNodeCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -408,7 +408,7 @@
       <scope id="6914907434147069435" at="75,40,77,33">
         <var name="provider" id="6914907434147069435" />
       </scope>
-      <scope id="6914907434147069435" at="83,119,85,25" />
+      <scope id="6914907434147069435" at="83,121,85,25" />
       <scope id="6914907434147069435" at="46,0,49,0" />
       <scope id="6914907434147069435" at="129,0,132,0" />
       <scope id="6914907434147069502" at="133,51,136,22">
@@ -459,7 +459,7 @@
       <scope id="6914907434147069435" at="116,44,127,7" />
       <scope id="6914907434147069435" at="115,0,129,0" />
       <unit id="6914907434147069435" at="139,0,142,0" name="jetbrains.mps.LangDoc.editor.DocBit_InlineDocBits_EditorBuilder_a$LINKS" />
-      <unit id="6914907434147069435" at="79,0,133,0" name="jetbrains.mps.LangDoc.editor.DocBit_InlineDocBits_EditorBuilder_a$textSingleRoleHandler_wq8h9k_b0a" />
+      <unit id="6914907434147069435" at="79,0,133,0" name="jetbrains.mps.LangDoc.editor.DocBit_InlineDocBits_EditorBuilder_a$textSingleRoleHandler_wq8h9k_b0a_0" />
       <unit id="6914907434147069435" at="31,0,143,0" name="jetbrains.mps.LangDoc.editor.DocBit_InlineDocBits_EditorBuilder_a" />
     </file>
     <file name="DocBit_InlineDocBits_InspectorBuilder_a.java">
@@ -485,9 +485,9 @@
       <node id="5842192314359644228" at="66,107,67,46" concept="1" />
       <node id="5842192314359644228" at="67,46,68,34" concept="1" />
       <node id="5842192314359644228" at="68,34,69,22" concept="6" />
-      <node id="6914907434147069435" at="71,40,72,122" concept="5" />
-      <node id="6914907434147069435" at="72,122,73,33" concept="6" />
-      <node id="6914907434147069435" at="79,121,80,38" concept="11" />
+      <node id="6914907434147069435" at="71,40,72,120" concept="5" />
+      <node id="6914907434147069435" at="72,120,73,33" concept="6" />
+      <node id="6914907434147069435" at="79,119,80,38" concept="11" />
       <node id="6914907434147069435" at="80,38,81,25" concept="1" />
       <node id="6914907434147069435" at="86,28,87,20" concept="6" />
       <node id="6914907434147069435" at="90,55,91,76" concept="5" />
@@ -517,7 +517,7 @@
       <node id="6914907434147069435" at="125,0,128,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="6914907434147069435" at="32,0,36,0" concept="0" trace="DocBit_InlineDocBits_InspectorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="6914907434147069435" at="71,0,75,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="6914907434147069435" at="79,0,83,0" concept="0" trace="textSingleRoleHandler_wq8h9k_b0a_0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="6914907434147069435" at="79,0,83,0" concept="0" trace="textSingleRoleHandler_wq8h9k_b0a#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="6914907434147069435" at="37,0,42,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="6914907434147069435" at="84,0,89,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5842192314359644228" at="65,0,71,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -539,7 +539,7 @@
       <scope id="6914907434147069435" at="71,40,73,33">
         <var name="provider" id="6914907434147069435" />
       </scope>
-      <scope id="6914907434147069435" at="79,121,81,25" />
+      <scope id="6914907434147069435" at="79,119,81,25" />
       <scope id="6914907434147069435" at="43,0,46,0" />
       <scope id="6914907434147069435" at="125,0,128,0" />
       <scope id="6914907434147069435" at="32,0,36,0">
@@ -585,7 +585,7 @@
       <scope id="6914907434147069435" at="112,44,123,7" />
       <scope id="6914907434147069435" at="111,0,125,0" />
       <unit id="6914907434147069435" at="130,0,133,0" name="jetbrains.mps.LangDoc.editor.DocBit_InlineDocBits_InspectorBuilder_a$LINKS" />
-      <unit id="6914907434147069435" at="75,0,129,0" name="jetbrains.mps.LangDoc.editor.DocBit_InlineDocBits_InspectorBuilder_a$textSingleRoleHandler_wq8h9k_b0a_0" />
+      <unit id="6914907434147069435" at="75,0,129,0" name="jetbrains.mps.LangDoc.editor.DocBit_InlineDocBits_InspectorBuilder_a$textSingleRoleHandler_wq8h9k_b0a" />
       <unit id="6914907434147069435" at="28,0,134,0" name="jetbrains.mps.LangDoc.editor.DocBit_InlineDocBits_InspectorBuilder_a" />
     </file>
   </root>

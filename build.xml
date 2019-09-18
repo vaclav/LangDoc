@@ -26,11 +26,13 @@
   </path>
   
   <target name="assemble" depends="classes, declare-mps-tasks">
-    <mkdir dir="${build.layout}" />
-    <mkdir dir="${build.tmp}/default/LangDoc.zip" />
-    <mkdir dir="${build.tmp}/default/LangDoc.zip/LangDoc" />
-    <mkdir dir="${build.tmp}/default/LangDoc.zip/LangDoc/languages" />
-    <mkdir dir="${build.tmp}/default/LangDoc.zip/LangDoc/languages/LangDoc" />
+    <mkdir dir="${build.layout}/LangDoc" />
+    <mkdir dir="${build.layout}/LangDoc/META-INF" />
+    <copy todir="${build.layout}/LangDoc/META-INF">
+      <fileset file="${basedir}/plugin.xml" />
+    </copy>
+    <mkdir dir="${build.layout}/LangDoc/languages" />
+    <mkdir dir="${build.layout}/LangDoc/languages/LangDoc" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.LangDocKit.jar" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.LangDocKit.jar/META-INF" />
     <echoxml file="${build.tmp}/default/jetbrains.mps.LangDocKit.jar/META-INF/module.xml">
@@ -40,7 +42,7 @@
         <sources jar="." descriptor="jetbrains.mps.LangDocKit.devkit" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/LangDoc.zip/LangDoc/languages/LangDoc/jetbrains.mps.LangDocKit.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/LangDoc/languages/LangDoc/jetbrains.mps.LangDocKit.jar" duplicate="preserve">
       <zipfileset file="${basedir}/devkits/jetbrains.mps.LangDocKit/jetbrains.mps.LangDocKit.devkit" prefix="module" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.LangDocKit.jar" />
     </jar>
@@ -94,7 +96,7 @@
         <sources jar="jetbrains.mps.LangDoc-src.jar" descriptor="jetbrains.mps.LangDoc.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/LangDoc.zip/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.LangDoc" />
       <fileset dir="${basedir}/languages/jetbrains.mps.LangDoc/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.LangDoc.jar" />
@@ -138,7 +140,7 @@
         <sources jar="jetbrains.mps.LangDoc-src.jar" descriptor="jetbrains.mps.LangDoc.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/LangDoc.zip/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc-generator.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.LangDoc#01" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.LangDoc-generator.jar" />
     </jar>
@@ -148,7 +150,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-jetbrains.mps.LangDoc-models">
       <fileset dir="${basedir}/languages/jetbrains.mps.LangDoc/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/LangDoc.zip/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc-src.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/jetbrains.mps.LangDoc/generator/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -200,7 +202,7 @@
         <sources jar="jetbrains.mps.LangDoc.plugin-src.jar" descriptor="jetbrains.mps.LangDoc.plugin.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/LangDoc.zip/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc.plugin.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc.plugin.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.LangDoc.plugin" />
       <fileset dir="${basedir}/solutions/jetbrains.mps.LangDoc.plugin/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.LangDoc.plugin.jar" />
@@ -208,7 +210,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-jetbrains.mps.LangDoc.plugin-models">
       <fileset dir="${basedir}/solutions/jetbrains.mps.LangDoc.plugin/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/LangDoc.zip/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc.plugin-src.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc.plugin-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/jetbrains.mps.LangDoc.plugin/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -218,10 +220,41 @@
       <zipfileset file="${basedir}/solutions/jetbrains.mps.LangDoc.plugin/jetbrains.mps.LangDoc.plugin.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-jetbrains.mps.LangDoc.plugin-models" prefix="module/models" />
     </jar>
-    <zip destfile="${build.layout}/LangDoc.zip">
-      <zipfileset file="${basedir}/plugin.xml" prefix="LangDoc/META-INF" />
-      <fileset dir="${build.tmp}/default/LangDoc.zip" />
-    </zip>
+    <mkdir dir="${build.tmp}/default/jetbrains.mps.LangDoc.build.jar" />
+    <mkdir dir="${build.tmp}/default/jetbrains.mps.LangDoc.build.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/jetbrains.mps.LangDoc.build.jar/META-INF/module.xml">
+      <module namespace="jetbrains.mps.LangDoc.build" type="solution" uuid="6bffa3b0-556a-4592-8452-60ab12ac8190">
+        <dependencies>
+          <module ref="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" kind="cl" />
+        </dependencies>
+        <uses>
+          <language id="l:798100da-4f0a-421a-b991-71f8c50ce5d2:jetbrains.mps.build" />
+          <language id="l:0cf935df-4699-4e9c-a132-fa109541cba3:jetbrains.mps.build.mps" />
+        </uses>
+        <classpath>
+          <entry path="." />
+        </classpath>
+        <sources jar="jetbrains.mps.LangDoc.build-src.jar" descriptor="jetbrains.mps.LangDoc.build.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.layout}/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc.build.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/jetbrains.mps.LangDoc.build" />
+      <fileset dir="${basedir}/solutions/jetbrains.mps.LangDoc.build/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/jetbrains.mps.LangDoc.build.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-jetbrains.mps.LangDoc.build-models">
+      <fileset dir="${basedir}/solutions/jetbrains.mps.LangDoc.build/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.layout}/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc.build-src.jar" duplicate="preserve">
+      <fileset dir="${basedir}/solutions/jetbrains.mps.LangDoc.build/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
+      </fileset>
+      <zipfileset file="${basedir}/solutions/jetbrains.mps.LangDoc.build/jetbrains.mps.LangDoc.build.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-jetbrains.mps.LangDoc.build-models" prefix="module/models" />
+    </jar>
     <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>
   
@@ -236,7 +269,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.jetbrains.mps.LangDoc, java.compile.jetbrains.mps.LangDoc#01, java.compile.jetbrains.mps.LangDoc.plugin" />
+  <target name="compileJava" depends="java.compile.jetbrains.mps.LangDoc, java.compile.jetbrains.mps.LangDoc#01, java.compile.jetbrains.mps.LangDoc.plugin, java.compile.jetbrains.mps.LangDoc.build" />
   
   <target name="processResources" />
   
@@ -250,6 +283,7 @@
     <echo message="generating" />
     <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" createStaticRefs="true" fork="true" skipUnmodifiedModels="${mps.generator.skipUnmodifiedModels}">
       <plugin path="${artifacts.mps}/lib/mps-workbench.jar" />
+      <plugin path="${artifacts.mps}/plugins/mps-build" />
       <plugin path="${artifacts.mps}/plugins/mps-core" />
       <plugin path="${artifacts.mps}/plugins/mps-testing" />
       <library file="${artifacts.mps}/languages/baseLanguage/closures.runtime.jar" />
@@ -262,6 +296,7 @@
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.javadoc.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jdk7.jar" />
+      <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jdk8.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.references.runtime.jar" />
@@ -279,6 +314,8 @@
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.templates.jar" />
       <library file="${artifacts.mps}/languages/editor/jetbrains.mps.editor.runtime.jar" />
       <library file="${artifacts.mps}/languages/editor/jetbrains.mps.editorlang.runtime.jar" />
+      <library file="${artifacts.mps}/languages/editor/jetbrains.mps.ide.editor.jar" />
+      <library file="${artifacts.mps}/languages/editor/typesystemIntegration.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.baseLanguage.lightweightdsl.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.access.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.actions.jar" />
@@ -321,6 +358,7 @@
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.baseLanguage.search.jar" />
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.baseLanguage.util.jar" />
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.platform.jar" />
+      <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.ui.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.dataFlow.runtime.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.findUsages.runtime.jar" />
@@ -331,15 +369,25 @@
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.smodel.query.runtime.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.refactoring.runtime.jar" />
       <library file="${artifacts.mps}/languages/text/jetbrains.mps.lang.text.jar" />
+      <library file="${artifacts.mps}/languages/tools/jetbrains.mps.core.tool.environment.jar" />
+      <library file="${artifacts.mps}/languages/tools/jetbrains.mps.tool.common.jar" />
+      <library file="${artifacts.mps}/languages/util/jetbrains.mps.java.stub.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.kernel.jar" />
+      <library file="${artifacts.mps}/languages/util/jetbrains.mps.lang.makeup.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.project.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.refactoring.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.runtime.jar" />
       <library file="${artifacts.mps}/languages/workbench-stub.jar" />
       <library file="${artifacts.mps}/languages/workbench/jetbrains.mps.lang.plugin.standalone.jar" />
       <library file="${artifacts.mps}/languages/xml/jetbrains.mps.core.xml.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.preset.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.ide.build.jar" />
       <chunk>
         <module file="${basedir}/languages/jetbrains.mps.LangDoc/jetbrains.mps.LangDoc.mpl" />
+        <module file="${basedir}/solutions/jetbrains.mps.LangDoc.build/jetbrains.mps.LangDoc.build.msd" />
         <module file="${basedir}/solutions/jetbrains.mps.LangDoc.plugin/jetbrains.mps.LangDoc.plugin.msd" />
         <module file="${basedir}/devkits/jetbrains.mps.LangDocKit/jetbrains.mps.LangDocKit.devkit" />
       </chunk>
@@ -504,9 +552,22 @@
     </javac>
   </target>
   
+  <target name="java.compile.jetbrains.mps.LangDoc.build">
+    <mkdir dir="${basedir}/solutions/jetbrains.mps.LangDoc.build/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/jetbrains.mps.LangDoc.build" />
+    <javac destdir="${build.tmp}/java/out/jetbrains.mps.LangDoc.build" fork="true" encoding="utf8" includeantruntime="false" debug="true">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${basedir}/solutions/jetbrains.mps.LangDoc.build/source_gen" />
+      </src>
+      <classpath />
+    </javac>
+  </target>
+  
   <target name="cleanSources">
     <delete dir="${basedir}/languages/jetbrains.mps.LangDoc/source_gen" />
     <delete dir="${basedir}/languages/jetbrains.mps.LangDoc/generator/source_gen" />
+    <delete dir="${basedir}/solutions/jetbrains.mps.LangDoc.build/source_gen" />
     <delete dir="${basedir}/solutions/jetbrains.mps.LangDoc.plugin/source_gen" />
   </target>
 </project>

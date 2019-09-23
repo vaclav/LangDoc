@@ -32,7 +32,7 @@
       <fileset file="${basedir}/plugin.xml" />
     </copy>
     <mkdir dir="${build.layout}/LangDoc/languages" />
-    <mkdir dir="${build.layout}/LangDoc/languages/LangDoc" />
+    <mkdir dir="${build.layout}/LangDoc/languages/LangDocContents" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.LangDocKit.jar" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.LangDocKit.jar/META-INF" />
     <echoxml file="${build.tmp}/default/jetbrains.mps.LangDocKit.jar/META-INF/module.xml">
@@ -42,7 +42,7 @@
         <sources jar="." descriptor="jetbrains.mps.LangDocKit.devkit" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/LangDoc/languages/LangDoc/jetbrains.mps.LangDocKit.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/LangDoc/languages/LangDocContents/jetbrains.mps.LangDocKit.jar" duplicate="preserve">
       <zipfileset file="${basedir}/devkits/jetbrains.mps.LangDocKit/jetbrains.mps.LangDocKit.devkit" prefix="module" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.LangDocKit.jar" />
     </jar>
@@ -96,7 +96,7 @@
         <sources jar="jetbrains.mps.LangDoc-src.jar" descriptor="jetbrains.mps.LangDoc.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/LangDoc/languages/LangDocContents/jetbrains.mps.LangDoc.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.LangDoc" />
       <fileset dir="${basedir}/languages/jetbrains.mps.LangDoc/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.LangDoc.jar" />
@@ -140,7 +140,7 @@
         <sources jar="jetbrains.mps.LangDoc-src.jar" descriptor="jetbrains.mps.LangDoc.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc-generator.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/LangDoc/languages/LangDocContents/jetbrains.mps.LangDoc-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.LangDoc#01" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.LangDoc-generator.jar" />
     </jar>
@@ -150,7 +150,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-jetbrains.mps.LangDoc-models">
       <fileset dir="${basedir}/languages/jetbrains.mps.LangDoc/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.layout}/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc-src.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/LangDoc/languages/LangDocContents/jetbrains.mps.LangDoc-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/jetbrains.mps.LangDoc/generator/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -202,7 +202,7 @@
         <sources jar="jetbrains.mps.LangDoc.plugin-src.jar" descriptor="jetbrains.mps.LangDoc.plugin.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc.plugin.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/LangDoc/languages/LangDocContents/jetbrains.mps.LangDoc.plugin.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.LangDoc.plugin" />
       <fileset dir="${basedir}/solutions/jetbrains.mps.LangDoc.plugin/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.LangDoc.plugin.jar" />
@@ -210,7 +210,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-jetbrains.mps.LangDoc.plugin-models">
       <fileset dir="${basedir}/solutions/jetbrains.mps.LangDoc.plugin/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.layout}/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc.plugin-src.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/LangDoc/languages/LangDocContents/jetbrains.mps.LangDoc.plugin-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/jetbrains.mps.LangDoc.plugin/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -237,7 +237,7 @@
         <sources jar="jetbrains.mps.LangDoc.build-src.jar" descriptor="jetbrains.mps.LangDoc.build.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc.build.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/LangDoc/languages/LangDocContents/jetbrains.mps.LangDoc.build.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.LangDoc.build" />
       <fileset dir="${basedir}/solutions/jetbrains.mps.LangDoc.build/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.LangDoc.build.jar" />
@@ -245,7 +245,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-jetbrains.mps.LangDoc.build-models">
       <fileset dir="${basedir}/solutions/jetbrains.mps.LangDoc.build/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.layout}/LangDoc/languages/LangDoc/jetbrains.mps.LangDoc.build-src.jar" duplicate="preserve">
+    <jar destfile="${build.layout}/LangDoc/languages/LangDocContents/jetbrains.mps.LangDoc.build-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/jetbrains.mps.LangDoc.build/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />

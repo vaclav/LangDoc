@@ -124,24 +124,24 @@
     </node>
     <node concept="1l3spV" id="5ZQFUMN3sIC" role="1l3spN">
       <node concept="m$_wl" id="5ZQFUMN3sIG" role="39821P">
-        <ref role="m_rDy" node="5ZQFUMN3sIt" resolve="LangDoc" />
+        <ref role="m_rDy" node="5ZQFUMN3sIt" resolve="jetbrains.mps.LangDoc" />
         <node concept="pUk6x" id="5ZQFUMN3sIH" role="pUk7w" />
       </node>
     </node>
     <node concept="m$_wf" id="5ZQFUMN3sIt" role="3989C9">
-      <property role="m$_wk" value="LangDoc" />
+      <property role="m$_wk" value="jetbrains.mps.LangDoc" />
       <node concept="3_J27D" id="5ZQFUMN3sIu" role="m$_yQ">
         <node concept="3Mxwew" id="5ZQFUMN3sIv" role="3MwsjC">
-          <property role="3MwjfP" value="LangDoc" />
+          <property role="3MwjfP" value="jetbrains.mps.LangDoc" />
         </node>
       </node>
       <node concept="3_J27D" id="5ZQFUMN3sIw" role="m$_w8">
         <node concept="3Mxwew" id="5ZQFUMN3sIx" role="3MwsjC">
-          <property role="3MwjfP" value="2019.2.2" />
+          <property role="3MwjfP" value="2019.2.3" />
         </node>
       </node>
       <node concept="m$f5U" id="5ZQFUMN3sIy" role="m$_yh">
-        <ref role="m$f5T" node="5ZQFUMN3sIs" resolve="LangDoc" />
+        <ref role="m$f5T" node="5ZQFUMN3sIs" resolve="LangDocContents" />
       </node>
       <node concept="m$_yC" id="5ZQFUMN3sIz" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
@@ -161,7 +161,7 @@
       </node>
     </node>
     <node concept="2G$12M" id="5ZQFUMN3sIs" role="3989C9">
-      <property role="TrG5h" value="LangDoc" />
+      <property role="TrG5h" value="LangDocContents" />
       <node concept="3LEwk6" id="5ZQFUMN3sIl" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="jetbrains.mps.LangDocKit" />

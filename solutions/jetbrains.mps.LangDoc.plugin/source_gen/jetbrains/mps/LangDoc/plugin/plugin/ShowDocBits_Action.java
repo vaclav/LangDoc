@@ -4,6 +4,7 @@ package jetbrains.mps.LangDoc.plugin.plugin;
 
 import jetbrains.mps.workbench.action.BaseAction;
 import javax.swing.Icon;
+import jetbrains.mps.workbench.action.ActionAccess;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import java.util.Map;
 import jetbrains.mps.openapi.editor.update.Updater;
@@ -17,7 +18,7 @@ public class ShowDocBits_Action extends BaseAction {
   public ShowDocBits_Action() {
     super("Show Documentation Bits in the Main Editor", "Changes the projection to make documentation visible in the editor", ICON);
     this.setIsAlwaysVisible(false);
-    this.setExecuteOutsideCommand(false);
+    this.setActionAccess(ActionAccess.UNDO_PROJECT);
   }
   @Override
   public boolean isDumbAware() {

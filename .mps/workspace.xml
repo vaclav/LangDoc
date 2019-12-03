@@ -33,7 +33,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="e230f6e9-1013-424d-81a2-701590fb7d59/r:8e717a1c-645f-49ca-a4c9-b9b4ce845486(TempModulee230f6e9-1013-424d-81a2-701590fb7d59/ConsoleModel_254387820209489)">
+            <model ref="d5ce94d9-b8c3-4724-853c-c17ad13c1518/r:c96d75ec-7c0f-47ee-afe1-a3db16b0407d(TempModuled5ce94d9-b8c3-4724-853c-c17ad13c1518/ConsoleModel_392189944624388)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -53,11 +53,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="6IxOaE5WzXQ">
-                <node concept="3balQm" id="6IxOaE5WzXR" role="aymYE" />
-                <node concept="2Clz$F" id="6IxOaE5WzXS" role="aymYO" />
-                <node concept="2_V_lH" id="6IxOaE5WzXT" role="1PhJh3">
-                  <ref role="2_V_lI" node="6IxOaE5WzXS" resolve="CommandHolder" />
+              <node concept="aymSD" id="21RiSVQeK3k">
+                <node concept="3balQm" id="21RiSVQeK3l" role="aymYE" />
+                <node concept="2Clz$F" id="21RiSVQeK3m" role="aymYO" />
+                <node concept="2_V_lH" id="21RiSVQeK3n" role="1PhJh3">
+                  <ref role="2_V_lI" node="21RiSVQeK3m" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -224,7 +224,35 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="d6916875-d700-4667-b516-830a5ba89d9a" />
+              <option name="myItemId" value="ddb34e7d-3cd8-455b-8223-dcc14bd73cf2" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:d496a934-44f2-44f3-ba61-902e6613520f(jetbrains.mps.LangDoc.sandbox) in IdeaFile[file:///Users/vaclav/work/mps_projects/LangDoc/languages/jetbrains.mps.LangDoc/sandbox/models/jetbrains.mps.LangDoc.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6bffa3b0-556a-4592-8452-60ab12ac8190" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -239,6 +267,16 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d6916875-d700-4667-b516-830a5ba89d9a" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,66 +304,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="6bffa3b0-556a-4592-8452-60ab12ac8190" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6bffa3b0-556a-4592-8452-60ab12ac8190" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d6916875-d700-4667-b516-830a5ba89d9a" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:aecf5761-ecde-49f5-9f59-24cfc90f72d5(jetbrains.mps.LangDoc.plugin.plugin) in IdeaFile[file:///Users/vaclav/work/mps_projects/LangDoc/solutions/jetbrains.mps.LangDoc.plugin/models/jetbrains.mps.LangDoc.plugin.plugin.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ddb34e7d-3cd8-455b-8223-dcc14bd73cf2" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:d496a934-44f2-44f3-ba61-902e6613520f(jetbrains.mps.LangDoc.sandbox) in IdeaFile[file:///Users/vaclav/work/mps_projects/LangDoc/languages/jetbrains.mps.LangDoc/sandbox/models/jetbrains.mps.LangDoc.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="d6916875-d700-4667-b516-830a5ba89d9a" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -340,13 +318,17 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ddb34e7d-3cd8-455b-8223-dcc14bd73cf2" />
+              <option name="myItemId" value="6bffa3b0-556a-4592-8452-60ab12ac8190" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ddb34e7d-3cd8-455b-8223-dcc14bd73cf2" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -493,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574950069508</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Release 2019.3">
+      <created>1575378357699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575378357699</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -653,32 +642,33 @@
     <MESSAGE value="Update readme" />
     <MESSAGE value="Update to MPS 2019.2" />
     <MESSAGE value="Update to MPS 2019.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update to MPS 2019.3" />
+    <MESSAGE value="Release 2019.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Release 2019.3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="528" y="295" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1574949773192">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="528" y="295" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.23.1680.1027@0.23.1680.1027" timestamp="1574949773192" />
-    <state x="435" y="138" key="CommitChangelistDialog2" timestamp="1574950069310">
+    <state x="435" y="138" key="CommitChangelistDialog2" timestamp="1575378357605">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="435" y="138" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1574950069310" />
-    <state width="1680" height="294" key="GridCell.Tab.0.bottom" timestamp="1575378338497">
+    <state x="435" y="138" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1575378357605" />
+    <state width="1680" height="294" key="GridCell.Tab.0.bottom" timestamp="1575378454560">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1680" height="294" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1575378338497" />
-    <state width="1680" height="294" key="GridCell.Tab.0.center" timestamp="1575378338496">
+    <state width="1680" height="294" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1575378454560" />
+    <state width="1680" height="294" key="GridCell.Tab.0.center" timestamp="1575378454560">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1680" height="294" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1575378338496" />
-    <state width="1680" height="294" key="GridCell.Tab.0.left" timestamp="1575378338495">
+    <state width="1680" height="294" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1575378454560" />
+    <state width="1680" height="294" key="GridCell.Tab.0.left" timestamp="1575378454559">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1680" height="294" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1575378338495" />
-    <state width="1680" height="294" key="GridCell.Tab.0.right" timestamp="1575378338496">
+    <state width="1680" height="294" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1575378454559" />
+    <state width="1680" height="294" key="GridCell.Tab.0.right" timestamp="1575378454560">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1680" height="294" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575378338496" />
+    <state width="1680" height="294" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575378454560" />
   </component>
 </project>

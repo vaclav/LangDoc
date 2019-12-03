@@ -26,7 +26,9 @@
         <child id="8618885170173601778" name="tail" index="2Ry0An" />
       </concept>
       <concept id="6647099934206700647" name="jetbrains.mps.build.structure.BuildJavaPlugin" flags="ng" index="10PD9b" />
-      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT" />
+      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
+        <child id="7389400916848144618" name="defaultPath" index="398pKh" />
+      </concept>
       <concept id="7389400916848153117" name="jetbrains.mps.build.structure.BuildSourceMacroRelativePath" flags="ng" index="398BVA">
         <reference id="7389400916848153130" name="macro" index="398BVh" />
       </concept>
@@ -112,6 +114,17 @@
     <node concept="3b7kt6" id="5ZQFUMN3sI8" role="10PD9s" />
     <node concept="398rNT" id="5ZQFUMN3sI9" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
+      <node concept="55IIr" id="21RiSVQeK3o" role="398pKh">
+        <node concept="2Ry0Ak" id="21RiSVQeK3r" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="21RiSVQeK3u" role="2Ry0An">
+            <property role="2Ry0Am" value=".." />
+            <node concept="2Ry0Ak" id="21RiSVQeK3G" role="2Ry0An">
+              <property role="2Ry0Am" value="MPS 2019.3 EAP" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="398rNT" id="5ZQFUMN3sIf" role="1l3spd">
       <property role="TrG5h" value="project_home" />

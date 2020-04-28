@@ -8,6 +8,45 @@
   <component name="ChangeListManager">
     <list default="true" id="9c185786-14b2-424d-8480-88f01ea346b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/editor/RemoveDocBit$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/editor/RemoveDocBit$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/editor/RemoveDocBit.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/editor/RemoveDocBit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/structure/StructureAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/generator/source_gen.caches/jetbrains/mps/LangDoc/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/generator/source_gen.caches/jetbrains/mps/LangDoc/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/jetbrains.mps.LangDoc.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/jetbrains.mps.LangDoc.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/models/jetbrains.mps.LangDoc.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/models/jetbrains.mps.LangDoc.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/models/jetbrains.mps.LangDoc.intentions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/models/jetbrains.mps.LangDoc.intentions.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/sandbox/jetbrains.mps.LangDoc.sandbox.msd" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/sandbox/jetbrains.mps.LangDoc.sandbox.msd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/sandbox/models/jetbrains.mps.LangDoc.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/sandbox/models/jetbrains.mps.LangDoc.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/sandbox/source_gen.caches/jetbrains/mps/LangDoc/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/sandbox/source_gen.caches/jetbrains/mps/LangDoc/sandbox/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen.caches/jetbrains/mps/LangDoc/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen.caches/jetbrains/mps/LangDoc/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen.caches/jetbrains/mps/LangDoc/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen.caches/jetbrains/mps/LangDoc/editor/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen.caches/jetbrains/mps/LangDoc/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen.caches/jetbrains/mps/LangDoc/editor/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen.caches/jetbrains/mps/LangDoc/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen.caches/jetbrains/mps/LangDoc/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen.caches/jetbrains/mps/LangDoc/intentions/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen.caches/jetbrains/mps/LangDoc/intentions/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen.caches/jetbrains/mps/LangDoc/structure/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen.caches/jetbrains/mps/LangDoc/structure/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/editor/RemoveDocBit.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/editor/RemoveDocBit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/structure/StructureAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/classes_gen/jetbrains/mps/LangDoc/build/LangDoc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/classes_gen/jetbrains/mps/LangDoc/build/LangDoc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/classes_gen/jetbrains/mps/LangDoc/build/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/classes_gen/jetbrains/mps/LangDoc/build/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/models/jetbrains.mps.LangDoc.build.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/models/jetbrains.mps.LangDoc.build.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/source_gen.caches/jetbrains/mps/LangDoc/build/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/source_gen.caches/jetbrains/mps/LangDoc/build/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/source_gen/jetbrains/mps/LangDoc/build/LangDoc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/source_gen/jetbrains/mps/LangDoc/build/LangDoc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/source_gen/jetbrains/mps/LangDoc/build/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/source_gen/jetbrains/mps/LangDoc/build/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.plugin/jetbrains.mps.LangDoc.plugin.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.plugin/jetbrains.mps.LangDoc.plugin.msd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.plugin/models/jetbrains.mps.LangDoc.plugin.plugin.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.plugin/models/jetbrains.mps.LangDoc.plugin.plugin.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.plugin/source_gen.caches/jetbrains/mps/LangDoc/plugin/plugin/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.plugin/source_gen.caches/jetbrains/mps/LangDoc/plugin/plugin/generated" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +72,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="d5ce94d9-b8c3-4724-853c-c17ad13c1518/r:c96d75ec-7c0f-47ee-afe1-a3db16b0407d(TempModuled5ce94d9-b8c3-4724-853c-c17ad13c1518/ConsoleModel_392189944624388)">
+            <model ref="9f7a7739-4a3d-4409-92b6-49d166bea32b/r:1ad7e5df-f21e-47a3-b1ba-9c8f5eb388b6(TempModule9f7a7739-4a3d-4409-92b6-49d166bea32b/ConsoleModel_35126048414496)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -53,11 +92,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="21RiSVQeK3k">
-                <node concept="3balQm" id="21RiSVQeK3l" role="aymYE" />
-                <node concept="2Clz$F" id="21RiSVQeK3m" role="aymYO" />
-                <node concept="2_V_lH" id="21RiSVQeK3n" role="1PhJh3">
-                  <ref role="2_V_lI" node="21RiSVQeK3m" resolve="CommandHolder" />
+              <node concept="aymSD" id="1Ovv98uBF6J">
+                <node concept="3balQm" id="1Ovv98uBF6K" role="aymYE" />
+                <node concept="2Clz$F" id="1Ovv98uBF6L" role="aymYO" />
+                <node concept="2_V_lH" id="1Ovv98uBF6M" role="1PhJh3">
+                  <ref role="2_V_lI" node="1Ovv98uBF6L" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -208,154 +247,19 @@
           <PluginState />
         </value>
       </option>
+      <option name="tooltips.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
     </option>
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" />
+    <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ddb34e7d-3cd8-455b-8223-dcc14bd73cf2" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:d496a934-44f2-44f3-ba61-902e6613520f(jetbrains.mps.LangDoc.sandbox) in IdeaFile[file:///Users/vaclav/work/mps_projects/LangDoc/languages/jetbrains.mps.LangDoc/sandbox/models/jetbrains.mps.LangDoc.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6bffa3b0-556a-4592-8452-60ab12ac8190" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ddb34e7d-3cd8-455b-8223-dcc14bd73cf2" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d6916875-d700-4667-b516-830a5ba89d9a" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6bffa3b0-556a-4592-8452-60ab12ac8190" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:66fba810-b285-4d4c-a12e-ace82eebf017(jetbrains.mps.LangDoc.build) in IdeaFile[file:///Users/vaclav/work/mps_projects/LangDoc/solutions/jetbrains.mps.LangDoc.build/models/jetbrains.mps.LangDoc.build.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="d6916875-d700-4667-b516-830a5ba89d9a" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6bffa3b0-556a-4592-8452-60ab12ac8190" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ddb34e7d-3cd8-455b-8223-dcc14bd73cf2" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6bffa3b0-556a-4592-8452-60ab12ac8190" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:66fba810-b285-4d4c-a12e-ace82eebf017(jetbrains.mps.LangDoc.build) in IdeaFile[file:///Users/vaclav/work/mps_projects/LangDoc/solutions/jetbrains.mps.LangDoc.build/models/jetbrains.mps.LangDoc.build.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6914907434147236742" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </SELECTED>
-        </subPane>
-      </pane>
       <pane id="FileSystem">
         <subPane>
           <expand>
@@ -375,6 +279,188 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ddb34e7d-3cd8-455b-8223-dcc14bd73cf2" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a23383a3-9564-4399-8643-72063c6111dc(jetbrains.mps.LangDoc)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ddb34e7d-3cd8-455b-8223-dcc14bd73cf2" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:d496a934-44f2-44f3-ba61-902e6613520f(jetbrains.mps.LangDoc.sandbox) in IdeaFile[path: /Users/vaclav/work/mps_projects/LangDoc/languages/jetbrains.mps.LangDoc/sandbox/models/jetbrains.mps.LangDoc.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a23383a3-9564-4399-8643-72063c6111dc(jetbrains.mps.LangDoc)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:06533f0c-4ad2-4b94-8af9-1358a0794161(jetbrains.mps.LangDoc.editor) in IdeaFile[path: /Users/vaclav/work/mps_projects/LangDoc/languages/jetbrains.mps.LangDoc/models/jetbrains.mps.LangDoc.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d6916875-d700-4667-b516-830a5ba89d9a" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6bffa3b0-556a-4592-8452-60ab12ac8190" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ddb34e7d-3cd8-455b-8223-dcc14bd73cf2" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d6916875-d700-4667-b516-830a5ba89d9a" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:aecf5761-ecde-49f5-9f59-24cfc90f72d5(jetbrains.mps.LangDoc.plugin.plugin) in IdeaFile[path: /Users/vaclav/work/mps_projects/LangDoc/solutions/jetbrains.mps.LangDoc.plugin/models/jetbrains.mps.LangDoc.plugin.plugin.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6bffa3b0-556a-4592-8452-60ab12ac8190" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6bffa3b0-556a-4592-8452-60ab12ac8190" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:66fba810-b285-4d4c-a12e-ace82eebf017(jetbrains.mps.LangDoc.build) in IdeaFile[path: /Users/vaclav/work/mps_projects/LangDoc/solutions/jetbrains.mps.LangDoc.build/models/jetbrains.mps.LangDoc.build.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d6916875-d700-4667-b516-830a5ba89d9a" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6bffa3b0-556a-4592-8452-60ab12ac8190" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetbrains" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:66fba810-b285-4d4c-a12e-ace82eebf017(jetbrains.mps.LangDoc.build) in IdeaFile[path: /Users/vaclav/work/mps_projects/LangDoc/solutions/jetbrains.mps.LangDoc.build/models/jetbrains.mps.LangDoc.build.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6914907434147236742" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
+        </subPane>
+      </pane>
       <pane id="Favorites" />
     </panes>
   </component>
@@ -382,15 +468,16 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Build Script.LangDoc">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -421,6 +508,24 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
+    <configuration name="CsBaseLanguage" type="Build Script" factoryName="Build Script" temporary="true">
+      <myNodePointer>
+        <MyState>
+          <option name="myNodePointer" value="r:ded66146-2842-4fe9-8436-576d58b859d9(CsBaseLanguage.build)/5217769088360019296" />
+          <option name="myNodeText" value="CsBaseLanguage.build.CsBaseLanguage" />
+        </MyState>
+      </myNodePointer>
+      <mySettings>
+        <MyState>
+          <option name="myUseOtherAntLocation" value="false" />
+          <option name="myOtherAntLocation" />
+          <option name="myAntOptions" />
+        </MyState>
+      </mySettings>
+      <method v="2">
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LangDoc" type="Build Script" factoryName="Build Script" temporary="true">
       <myNodePointer>
         <MyState>
@@ -442,23 +547,12 @@
     <recent_temporary>
       <list>
         <item itemvalue="Build Script.LangDoc" />
+        <item itemvalue="Build Script.CsBaseLanguage" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -482,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575378357699</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Change the layout to a zip file">
+      <created>1575378474333</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575378474333</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -629,13 +730,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Minor changes, update to version 0.2" />
@@ -643,32 +743,17 @@
     <MESSAGE value="Update to MPS 2019.2" />
     <MESSAGE value="Update to MPS 2019.3" />
     <MESSAGE value="Release 2019.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Release 2019.3" />
+    <MESSAGE value="Change the layout to a zip file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the layout to a zip file" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="528" y="295" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1574949773192">
+    <state x="528" y="293" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1588067175040">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="528" y="295" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.23.1680.1027@0.23.1680.1027" timestamp="1574949773192" />
-    <state x="435" y="138" key="CommitChangelistDialog2" timestamp="1575378357605">
+    <state x="528" y="293" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.23.1680.1027@0.23.1680.1027" timestamp="1588067175040" />
+    <state x="173" y="216" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog" timestamp="1588075147388">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="435" y="138" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1575378357605" />
-    <state width="1680" height="294" key="GridCell.Tab.0.bottom" timestamp="1575378454560">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1680" height="294" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1575378454560" />
-    <state width="1680" height="294" key="GridCell.Tab.0.center" timestamp="1575378454560">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1680" height="294" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1575378454560" />
-    <state width="1680" height="294" key="GridCell.Tab.0.left" timestamp="1575378454559">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1680" height="294" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1575378454559" />
-    <state width="1680" height="294" key="GridCell.Tab.0.right" timestamp="1575378454560">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1680" height="294" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575378454560" />
+    <state x="173" y="216" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1588075147388" />
   </component>
 </project>

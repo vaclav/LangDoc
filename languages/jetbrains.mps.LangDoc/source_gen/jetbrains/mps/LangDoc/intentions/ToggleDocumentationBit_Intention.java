@@ -42,7 +42,7 @@ public final class ToggleDocumentationBit_Intention extends AbstractIntentionDes
     return true;
   }
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return ListSequence.fromList(SNodeOperations.getNodeAncestors(node, CONCEPTS.DocBit$45, true)).isEmpty();
+    return ListSequence.fromList(SNodeOperations.getNodeAncestors(node, CONCEPTS.DocBit$EQ, true)).isEmpty();
   }
   @Override
   public boolean isSurroundWith() {
@@ -59,16 +59,16 @@ public final class ToggleDocumentationBit_Intention extends AbstractIntentionDes
     }
     @Override
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$45)) == null) ? "Add a DocBit" : "Remove a DocBit");
+      return ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ)) == null) ? "Add a DocBit" : "Remove a DocBit");
     }
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
-      if ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$45)) == null)) {
-        AttributeOperations.createAndSetAttrbiute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$45), CONCEPTS.DocBit$45);
-        SNode t = SLinkOperations.setNewChild(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$45)), LINKS.text$TOU_, null);
-        SNode l = SLinkOperations.addNewChild(t, LINKS.lines$$cru, null);
-        SLinkOperations.addNewChild(l, LINKS.elements$eRew, CONCEPTS.Word$AM);
-        SelectionUtil.selectLabelCellAnSetCaret(editorContext, AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$45)), SelectionManager.FIRST_ERROR_CELL + "|" + SelectionManager.FOCUS_POLICY_CELL + "|" + SelectionManager.FIRST_EDITABLE_CELL + "|" + SelectionManager.FIRST_CELL, 0);
+      if ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ)) == null)) {
+        AttributeOperations.createAndSetAttrbiute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ), CONCEPTS.DocBit$EQ);
+        SNode t = SLinkOperations.setNewChild(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ)), LINKS.text$HMYG, null);
+        SNode l = SLinkOperations.addNewChild(t, LINKS.lines$U$m7, null);
+        SLinkOperations.addNewChild(l, LINKS.elements$_j45, CONCEPTS.Word$Dn);
+        SelectionUtil.selectLabelCellAnSetCaret(editorContext, AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ)), SelectionManager.FIRST_ERROR_CELL + "|" + SelectionManager.FOCUS_POLICY_CELL + "|" + SelectionManager.FIRST_EDITABLE_CELL + "|" + SelectionManager.FIRST_CELL, 0);
 
         Updater updater = editorContext.getEditorComponent().getUpdater();
         String[] initialEditorHints = updater.getInitialEditorHints();
@@ -81,7 +81,7 @@ public final class ToggleDocumentationBit_Intention extends AbstractIntentionDes
         }
         editorContext.openInspector();
       } else {
-        AttributeOperations.setAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$45), null);
+        AttributeOperations.setAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ), null);
         SelectionUtil.selectLabelCellAnSetCaret(editorContext, node, SelectionManager.FIRST_CELL, 0);
 
       }
@@ -93,13 +93,13 @@ public final class ToggleDocumentationBit_Intention extends AbstractIntentionDes
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept DocBit$45 = MetaAdapterFactory.getConcept(0xa23383a395644399L, 0x864372063c6111dcL, 0x5ff6afacb2f5cc77L, "jetbrains.mps.LangDoc.structure.DocBit");
-    /*package*/ static final SConcept Word$AM = MetaAdapterFactory.getConcept(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x229012ddae35f04L, "jetbrains.mps.lang.text.structure.Word");
+    /*package*/ static final SConcept DocBit$EQ = MetaAdapterFactory.getConcept(0xa23383a395644399L, 0x864372063c6111dcL, 0x5ff6afacb2f5cc77L, "jetbrains.mps.LangDoc.structure.DocBit");
+    /*package*/ static final SConcept Word$Dn = MetaAdapterFactory.getConcept(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x229012ddae35f04L, "jetbrains.mps.lang.text.structure.Word");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink text$TOU_ = MetaAdapterFactory.getContainmentLink(0xa23383a395644399L, 0x864372063c6111dcL, 0x5ff6afacb2f5cc77L, 0x5ff6afacb2f5cc7eL, "text");
-    /*package*/ static final SContainmentLink lines$$cru = MetaAdapterFactory.getContainmentLink(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e5619f411L, 0x2331694e561a03b8L, "lines");
-    /*package*/ static final SContainmentLink elements$eRew = MetaAdapterFactory.getContainmentLink(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e561af166L, 0x2331694e561af167L, "elements");
+    /*package*/ static final SContainmentLink text$HMYG = MetaAdapterFactory.getContainmentLink(0xa23383a395644399L, 0x864372063c6111dcL, 0x5ff6afacb2f5cc77L, 0x5ff6afacb2f5cc7eL, "text");
+    /*package*/ static final SContainmentLink lines$U$m7 = MetaAdapterFactory.getContainmentLink(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e5619f411L, 0x2331694e561a03b8L, "lines");
+    /*package*/ static final SContainmentLink elements$_j45 = MetaAdapterFactory.getContainmentLink(0xc7fb639fbe784307L, 0x89b0b5959c3fa8c8L, 0x2331694e561af166L, 0x2331694e561af167L, "elements");
   }
 }

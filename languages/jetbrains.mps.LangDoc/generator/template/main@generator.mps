@@ -25,7 +25,7 @@
   <node concept="bUwia" id="5ZQFUMMXsLJ">
     <property role="TrG5h" value="main" />
     <node concept="CY16f" id="5ZQFUMN3qib" role="CYSdJ">
-      <ref role="CY16a" to="q43j:5ZQFUMMXsLR" resolve="DocumentationBit" />
+      <ref role="CY16a" to="q43j:5ZQFUMMXsLR" resolve="DocBit" />
     </node>
   </node>
 </model>

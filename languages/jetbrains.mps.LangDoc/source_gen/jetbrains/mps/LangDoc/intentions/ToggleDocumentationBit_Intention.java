@@ -14,7 +14,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.Collections;
 import jetbrains.mps.intentions.AbstractIntentionExecutable;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.editor.runtime.selection.SelectionUtil;
@@ -59,16 +58,16 @@ public final class ToggleDocumentationBit_Intention extends AbstractIntentionDes
     }
     @Override
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ)) == null) ? "Add a DocBit" : "Remove a DocBit");
+      return ((new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ).get(node) == null) ? "Add a DocBit" : "Remove a DocBit");
     }
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
-      if ((AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ)) == null)) {
-        AttributeOperations.createAndSetAttrbiute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ), CONCEPTS.DocBit$EQ);
-        SNode t = SLinkOperations.setNewChild(AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ)), LINKS.text$HMYG, null);
+      if ((new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ).get(node) == null)) {
+        new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ).setNew(node);
+        SNode t = SLinkOperations.setNewChild(new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ).get(node), LINKS.text$HMYG, null);
         SNode l = SLinkOperations.addNewChild(t, LINKS.lines$U$m7, null);
         SLinkOperations.addNewChild(l, LINKS.elements$_j45, CONCEPTS.Word$Dn);
-        SelectionUtil.selectLabelCellAnSetCaret(editorContext, AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ)), SelectionManager.FIRST_ERROR_CELL + "|" + SelectionManager.FOCUS_POLICY_CELL + "|" + SelectionManager.FIRST_EDITABLE_CELL + "|" + SelectionManager.FIRST_CELL, 0);
+        SelectionUtil.selectLabelCellAnSetCaret(editorContext, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ).get(node), SelectionManager.FIRST_ERROR_CELL + "|" + SelectionManager.FOCUS_POLICY_CELL + "|" + SelectionManager.FIRST_EDITABLE_CELL + "|" + SelectionManager.FIRST_CELL, 0);
 
         Updater updater = editorContext.getEditorComponent().getUpdater();
         String[] initialEditorHints = updater.getInitialEditorHints();
@@ -81,7 +80,7 @@ public final class ToggleDocumentationBit_Intention extends AbstractIntentionDes
         }
         editorContext.openInspector();
       } else {
-        AttributeOperations.setAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ), null);
+        new IAttributeDescriptor.NodeAttribute(CONCEPTS.DocBit$EQ).set(node, null);
         SelectionUtil.selectLabelCellAnSetCaret(editorContext, node, SelectionManager.FIRST_CELL, 0);
 
       }

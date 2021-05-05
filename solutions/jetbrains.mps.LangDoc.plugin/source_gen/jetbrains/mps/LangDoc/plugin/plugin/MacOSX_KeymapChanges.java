@@ -9,12 +9,12 @@ import javax.swing.KeyStroke;
 
 public class MacOSX_KeymapChanges extends BaseKeymapChanges {
   public MacOSX_KeymapChanges() {
-    // simple 
-    // simple with remove/replace 
+    // simple
+    // simple with remove/replace
     addSimpleShortcut("jetbrains.mps.LangDoc.plugin.plugin.HideDocBits_Action", new BaseKeymapChanges.ShortcutWrapper(getShortcut("ctrl alt shift C"), false, true));
     addSimpleShortcut("jetbrains.mps.LangDoc.plugin.plugin.ShowDocBits_Action", new BaseKeymapChanges.ShortcutWrapper(getShortcut("ctrl alt shift C"), false, true));
-    // simple parameterized 
-    // complex 
+    // simple parameterized
+    // complex
   }
   public String getScheme() {
     return "Mac OS X";

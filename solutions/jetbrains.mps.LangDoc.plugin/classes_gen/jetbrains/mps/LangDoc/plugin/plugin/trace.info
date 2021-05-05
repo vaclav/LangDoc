@@ -96,20 +96,20 @@
   <root nodeRef="r:aecf5761-ecde-49f5-9f59-24cfc90f72d5(jetbrains.mps.LangDoc.plugin.plugin)/5902677980350188107">
     <file name="DocBitActions_ActionGroup.java">
       <node id="5902677980350188107" at="10,0,11,0" concept="12" trace="ID" />
-      <node id="5902677980350188107" at="12,72,13,39" concept="14" />
+      <node id="5902677980350188107" at="12,71,13,39" concept="14" />
       <node id="5902677980350188107" at="13,39,14,25" concept="2" />
       <node id="5902677980350188107" at="14,25,15,20" concept="2" />
       <node id="5902677980350188112" at="15,20,16,103" concept="2" />
       <node id="5902677980350450219" at="16,103,17,103" concept="2" />
       <node id="5902677980350188107" at="12,0,19,0" concept="1" trace="DocBitActions_ActionGroup#(Ljetbrains/mps/workbench/action/ApplicationPlugin;)V" />
-      <scope id="5902677980350188107" at="12,72,17,103" />
+      <scope id="5902677980350188107" at="12,71,17,103" />
       <scope id="5902677980350188107" at="12,0,19,0">
         <var name="plugin" id="5902677980350188107" />
       </scope>
       <unit id="5902677980350188107" at="9,0,20,0" name="jetbrains.mps.LangDoc.plugin.plugin.DocBitActions_ActionGroup" />
     </file>
     <file name="Plugin_ApplicationPlugin.java">
-      <node id="5902677980350188107" at="29,14,30,50" concept="2" />
+      <node id="5902677980350188107" at="29,13,30,50" concept="2" />
       <node id="5902677980350188114" at="32,37,33,84" concept="2" />
     </file>
   </root>
@@ -207,16 +207,16 @@
       <unit id="5902677980350280812" at="15,0,78,0" name="jetbrains.mps.LangDoc.plugin.plugin.HideDocBits_Action" />
     </file>
     <file name="Plugin_ApplicationPlugin.java">
-      <node id="5902677980350280812" at="26,30,27,40" concept="2" />
+      <node id="5902677980350280812" at="26,29,27,40" concept="2" />
     </file>
   </root>
   <root nodeRef="r:aecf5761-ecde-49f5-9f59-24cfc90f72d5(jetbrains.mps.LangDoc.plugin.plugin)/5902677980350520913">
     <file name="DocBitKeys_KeymapChanges.java">
-      <node id="5902677980350520913" at="11,37,12,14" concept="10" />
-      <node id="5902677980350538803" at="12,14,13,113" concept="2" />
+      <node id="5902677980350520913" at="11,37,12,13" concept="10" />
+      <node id="5902677980350538803" at="12,13,13,113" concept="2" />
       <node id="5902677980350520916" at="13,113,14,113" concept="2" />
-      <node id="5902677980350520913" at="14,113,15,28" concept="10" />
-      <node id="5902677980350520913" at="15,28,16,15" concept="10" />
+      <node id="5902677980350520913" at="14,113,15,27" concept="10" />
+      <node id="5902677980350520913" at="15,27,16,14" concept="10" />
       <node id="5902677980350520913" at="18,29,19,22" concept="9" />
       <node id="5902677980350520913" at="21,53,22,70" concept="9" />
       <node id="5902677980350520913" at="18,0,21,0" concept="7" trace="getScheme#()Ljava/lang/String;" />
@@ -228,7 +228,7 @@
       <scope id="5902677980350520913" at="21,0,24,0">
         <var name="stroke" id="5902677980350520913" />
       </scope>
-      <scope id="5902677980350520913" at="11,37,16,15" />
+      <scope id="5902677980350520913" at="11,37,16,14" />
       <scope id="5902677980350520913" at="11,0,18,0" />
       <unit id="5902677980350520913" at="10,0,25,0" name="jetbrains.mps.LangDoc.plugin.plugin.DocBitKeys_KeymapChanges" />
     </file>
@@ -238,12 +238,12 @@
   </root>
   <root nodeRef="r:aecf5761-ecde-49f5-9f59-24cfc90f72d5(jetbrains.mps.LangDoc.plugin.plugin)/5902677980350526746">
     <file name="MacOSX_KeymapChanges.java">
-      <node id="5902677980350526746" at="11,33,12,14" concept="10" />
-      <node id="5902677980350526746" at="12,14,13,34" concept="10" />
-      <node id="5902677980350538815" at="13,34,14,165" concept="2" />
+      <node id="5902677980350526746" at="11,33,12,13" concept="10" />
+      <node id="5902677980350526746" at="12,13,13,33" concept="10" />
+      <node id="5902677980350538815" at="13,33,14,165" concept="2" />
       <node id="5902677980350526747" at="14,165,15,165" concept="2" />
-      <node id="5902677980350526746" at="15,165,16,28" concept="10" />
-      <node id="5902677980350526746" at="16,28,17,15" concept="10" />
+      <node id="5902677980350526746" at="15,165,16,27" concept="10" />
+      <node id="5902677980350526746" at="16,27,17,14" concept="10" />
       <node id="5902677980350526746" at="19,29,20,22" concept="9" />
       <node id="5902677980350526746" at="22,53,23,70" concept="9" />
       <node id="5902677980350526746" at="19,0,22,0" concept="7" trace="getScheme#()Ljava/lang/String;" />
@@ -255,7 +255,7 @@
       <scope id="5902677980350526746" at="22,0,25,0">
         <var name="stroke" id="5902677980350526746" />
       </scope>
-      <scope id="5902677980350526746" at="11,33,17,15" />
+      <scope id="5902677980350526746" at="11,33,17,14" />
       <scope id="5902677980350526746" at="11,0,19,0" />
       <unit id="5902677980350526746" at="10,0,26,0" name="jetbrains.mps.LangDoc.plugin.plugin.MacOSX_KeymapChanges" />
     </file>
@@ -265,12 +265,12 @@
   </root>
   <root nodeRef="r:aecf5761-ecde-49f5-9f59-24cfc90f72d5(jetbrains.mps.LangDoc.plugin.plugin)/5902677980350526749">
     <file name="MacOSX105_KeymapChanges.java">
-      <node id="5902677980350526749" at="11,36,12,14" concept="10" />
-      <node id="5902677980350526749" at="12,14,13,34" concept="10" />
-      <node id="5902677980350538824" at="13,34,14,165" concept="2" />
+      <node id="5902677980350526749" at="11,36,12,13" concept="10" />
+      <node id="5902677980350526749" at="12,13,13,33" concept="10" />
+      <node id="5902677980350538824" at="13,33,14,165" concept="2" />
       <node id="5902677980350526750" at="14,165,15,165" concept="2" />
-      <node id="5902677980350526749" at="15,165,16,28" concept="10" />
-      <node id="5902677980350526749" at="16,28,17,15" concept="10" />
+      <node id="5902677980350526749" at="15,165,16,27" concept="10" />
+      <node id="5902677980350526749" at="16,27,17,14" concept="10" />
       <node id="5902677980350526749" at="19,29,20,28" concept="9" />
       <node id="5902677980350526749" at="22,53,23,70" concept="9" />
       <node id="5902677980350526749" at="19,0,22,0" concept="7" trace="getScheme#()Ljava/lang/String;" />
@@ -282,7 +282,7 @@
       <scope id="5902677980350526749" at="22,0,25,0">
         <var name="stroke" id="5902677980350526749" />
       </scope>
-      <scope id="5902677980350526749" at="11,36,17,15" />
+      <scope id="5902677980350526749" at="11,36,17,14" />
       <scope id="5902677980350526749" at="11,0,19,0" />
       <unit id="5902677980350526749" at="10,0,26,0" name="jetbrains.mps.LangDoc.plugin.plugin.MacOSX105_KeymapChanges" />
     </file>
@@ -294,8 +294,8 @@
     <file name="Plugin_ApplicationPlugin.java">
       <node id="7105494472624998296" at="15,0,16,0" concept="3" trace="myId" />
       <node id="7105494472624998296" at="21,27,22,16" concept="9" />
-      <node id="7105494472624998296" at="25,30,26,30" concept="10" />
-      <node id="7105494472624998296" at="28,40,29,14" concept="10" />
+      <node id="7105494472624998296" at="25,30,26,29" concept="10" />
+      <node id="7105494472624998296" at="28,40,29,13" concept="10" />
       <node id="7105494472624998296" at="35,48,36,92" concept="8" />
       <node id="7105494472624998296" at="39,70,40,15" concept="9" />
       <node id="7105494472624998296" at="17,0,19,0" concept="1" trace="Plugin_ApplicationPlugin#()V" />

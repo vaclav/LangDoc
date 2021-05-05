@@ -23,10 +23,10 @@ public class Plugin_ApplicationPlugin extends BaseApplicationPlugin {
   }
 
   public void createGroups() {
-    // actions w/o parameters 
+    // actions w/o parameters
     addAction(new HideDocBits_Action());
     addAction(new ShowDocBits_Action());
-    // groups 
+    // groups
     addGroup(new DocBitActions_ActionGroup(this));
   }
   public void adjustRegularGroups() {

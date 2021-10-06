@@ -6,7 +6,9 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c185786-14b2-424d-8480-88f01ea346b3" name="Default Changelist" comment="" />
+    <list default="true" id="9c185786-14b2-424d-8480-88f01ea346b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/classes_gen/jetbrains/mps/LangDoc/build/LangDoc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/classes_gen/jetbrains/mps/LangDoc/build/LangDoc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +33,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="9e5d4017-6060-47ae-bac1-489dff3cf460/r:84cbb9ef-2dc2-4cbb-9bd9-3cadf100007b(TempModule9e5d4017-6060-47ae-bac1-489dff3cf460/ConsoleModel_645947739980602)">
+            <model ref="f86ef5f6-0c43-4f96-8ef0-4db4d53a563c/r:352f9824-8bac-4abe-802e-3f279d4111dc(TempModulef86ef5f6-0c43-4f96-8ef0-4db4d53a563c/ConsoleModel_72896742039415)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -51,11 +53,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="1fC1EjNixxH">
-                <node concept="3balQm" id="1fC1EjNixxI" role="aymYE" />
-                <node concept="2Clz$F" id="1fC1EjNixxJ" role="aymYO" />
-                <node concept="2_V_lH" id="1fC1EjNixxK" role="1PhJh3">
-                  <ref role="2_V_lI" node="1fC1EjNixxJ" resolve="CommandHolder" />
+              <node concept="aymSD" id="bu9N_5r7Ce">
+                <node concept="3balQm" id="bu9N_5r7Cf" role="aymYE" />
+                <node concept="2Clz$F" id="bu9N_5r7Cg" role="aymYO" />
+                <node concept="2_V_lH" id="bu9N_5r7Ch" role="1PhJh3">
+                  <ref role="2_V_lI" node="bu9N_5r7Cg" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -289,26 +291,6 @@
           <PluginState />
         </value>
       </option>
-      <option name="jetbrains.mps.baseLanguage.lightweightdsl.pluginSolution.plugin.PluginSolution_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
-      <option name="jetbrains.mps.editor.contextActionsTool.pluginSolution.plugin.PluginSolution_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
-      <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.Plugin_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
-      <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.PluginSolution_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
       <option name="jetbrains.mps.ide.actions.Ide_ProjectPlugin">
         <value>
           <PluginState>
@@ -325,36 +307,6 @@
               </list>
             </option>
           </PluginState>
-        </value>
-      </option>
-      <option name="jetbrains.mps.ide.devkit.actions.Mpsdevkit_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
-      <option name="jetbrains.mps.ide.devkit.editor.Editor_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
-      <option name="jetbrains.mps.ide.make.actions.Make_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
-      <option name="jetbrains.mps.lang.editor.tooltips.runtime.plugin.Runtime_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
-      <option name="jetbrains.mps.migration.workbench.plugin.Workbench_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
-      <option name="jetbrains.mps.vcs.mergehints.plugin.plugin.Plugin_ProjectPlugin">
-        <value>
-          <PluginState />
         </value>
       </option>
       <option name="org.iets3.core.expr.plugin.plugin.Plugin_ProjectPlugin">
@@ -388,6 +340,25 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -403,6 +374,10 @@
               <option name="myItemId" value="jetbrains" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:66fba810-b285-4d4c-a12e-ace82eebf017(jetbrains.mps.LangDoc.build) in IdeaFile[path: /Users/vaclav/work/mps_projects/LangDoc/solutions/jetbrains.mps.LangDoc.build/models/jetbrains.mps.LangDoc.build.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -415,10 +390,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:66fba810-b285-4d4c-a12e-ace82eebf017(jetbrains.mps.LangDoc.build) in IdeaFile[path: /Users/vaclav/work/mps_projects/LangDoc/solutions/jetbrains.mps.LangDoc.build/models/jetbrains.mps.LangDoc.build.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -460,25 +431,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
-        </subPane>
-      </pane>
-      <pane id="FileSystem">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-          </expand>
-          <select />
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -642,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620210768977</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update to 2021.2">
+      <created>1633431717067</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1633431717067</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -809,6 +768,7 @@
     <MESSAGE value="Update to 2020.2" />
     <MESSAGE value="Update to 2020.3" />
     <MESSAGE value="Update to 2021.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update to 2021.1" />
+    <MESSAGE value="Update to 2021.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update to 2021.2" />
   </component>
 </project>

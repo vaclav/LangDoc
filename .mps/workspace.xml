@@ -6,9 +6,7 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c185786-14b2-424d-8480-88f01ea346b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/classes_gen/jetbrains/mps/LangDoc/build/LangDoc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/classes_gen/jetbrains/mps/LangDoc/build/LangDoc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9c185786-14b2-424d-8480-88f01ea346b3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +31,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="f86ef5f6-0c43-4f96-8ef0-4db4d53a563c/r:352f9824-8bac-4abe-802e-3f279d4111dc(TempModulef86ef5f6-0c43-4f96-8ef0-4db4d53a563c/ConsoleModel_72896742039415)">
+            <model ref="1cc7bd71-b31c-401c-bc99-4cedbfbe97d6/r:4e5cba9b-d50a-4918-a3f9-ad8b7eb62157(TempModule1cc7bd71-b31c-401c-bc99-4cedbfbe97d6/ConsoleModel_90116168363633)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -53,11 +51,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="bu9N_5r7Ce">
-                <node concept="3balQm" id="bu9N_5r7Cf" role="aymYE" />
-                <node concept="2Clz$F" id="bu9N_5r7Cg" role="aymYO" />
-                <node concept="2_V_lH" id="bu9N_5r7Ch" role="1PhJh3">
-                  <ref role="2_V_lI" node="bu9N_5r7Cg" resolve="CommandHolder" />
+              <node concept="aymSD" id="2f1MjHN$PGs">
+                <node concept="3balQm" id="2f1MjHN$PGt" role="aymYE" />
+                <node concept="2Clz$F" id="2f1MjHN$PGu" role="aymYO" />
+                <node concept="2_V_lH" id="2f1MjHN$PGv" role="1PhJh3">
+                  <ref role="2_V_lI" node="2f1MjHN$PGu" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -340,25 +338,6 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="FileSystem">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-            <path>
-              <item name="" type="" />
-              <item name="" type="" />
-              <item name="" type="" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -384,28 +363,28 @@
               <option name="myItemId" value="LangDoc" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LangDoc" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6bffa3b0-556a-4592-8452-60ab12ac8190" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LangDoc" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="6bffa3b0-556a-4592-8452-60ab12ac8190" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jetbrains" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LangDoc" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6bffa3b0-556a-4592-8452-60ab12ac8190" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LangDoc" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,6 +410,25 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
+        </subPane>
+      </pane>
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+            <path>
+              <item name="" type="" />
+              <item name="" type="" />
+              <item name="" type="" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -601,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633431717067</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update the version to 2021.2">
+      <created>1633514162796</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1633514162796</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -769,6 +774,7 @@
     <MESSAGE value="Update to 2020.3" />
     <MESSAGE value="Update to 2021.1" />
     <MESSAGE value="Update to 2021.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update to 2021.2" />
+    <MESSAGE value="Update the version to 2021.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the version to 2021.2" />
   </component>
 </project>

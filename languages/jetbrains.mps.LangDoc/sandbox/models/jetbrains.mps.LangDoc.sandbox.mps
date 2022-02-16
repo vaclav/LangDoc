@@ -2,7 +2,7 @@
 <model ref="r:d496a934-44f2-44f3-ba61-902e6613520f(jetbrains.mps.LangDoc.sandbox)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <devkit ref="f521c16e-1185-45b0-b437-6e6e54e0b48d(jetbrains.mps.LangDocKit)" />
   </languages>
   <imports />

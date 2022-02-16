@@ -5,6 +5,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
@@ -15,7 +16,7 @@
       <unit at="10,0,28,0" name="jetbrains.mps.LangDoc.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="14,0,60,0" name="jetbrains.mps.LangDoc.structure.StructureAspectDescriptor" />
+      <unit at="14,0,61,0" name="jetbrains.mps.LangDoc.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:1a7b957e-4397-459e-ba69-a3960d45b949(jetbrains.mps.LangDoc.structure)/6914907434145664119">
@@ -32,7 +33,7 @@
       <scope id="6914907434145664119" at="19,40,25,28" />
     </file>
     <file name="LanguageConceptSwitch.java">
-      <node id="6914907434145664119" at="12,0,13,0" concept="5" trace="DocBit" />
+      <node id="6914907434145664119" at="12,0,13,0" concept="6" trace="DocBit" />
       <node id="6914907434145664119" at="15,116,16,45" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
@@ -40,17 +41,18 @@
       <node id="6914907434145664119" at="38,40,39,31" concept="4" />
       <node id="6914907434145664119" at="50,64,51,162" concept="3" />
       <node id="6914907434145664119" at="51,162,52,34" concept="0" />
-      <node id="6914907434145664119" at="52,34,53,127" concept="0" />
-      <node id="6914907434145664119" at="53,127,54,108" concept="0" />
-      <node id="6914907434145664119" at="54,108,55,17" concept="0" />
-      <node id="6914907434145664126" at="55,17,56,198" concept="0" />
-      <node id="6914907434145664119" at="56,198,57,22" concept="4" />
-      <node id="6914907434145664119" at="50,0,59,0" concept="6" trace="createDescriptorForDocBit#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="6914907434145664119" at="52,34,53,63" concept="5" />
+      <node id="6914907434145664119" at="53,63,54,76" concept="0" />
+      <node id="6914907434145664119" at="54,76,55,108" concept="0" />
+      <node id="6914907434145664119" at="55,108,56,17" concept="0" />
+      <node id="6914907434145664126" at="56,17,57,198" concept="0" />
+      <node id="6914907434145664119" at="57,198,58,22" concept="4" />
+      <node id="6914907434145664119" at="50,0,60,0" concept="7" trace="createDescriptorForDocBit#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="6914907434145664119" at="38,40,39,31" />
-      <scope id="6914907434145664119" at="50,64,57,22">
+      <scope id="6914907434145664119" at="50,64,58,22">
         <var name="b" id="6914907434145664119" />
       </scope>
-      <scope id="6914907434145664119" at="50,0,59,0" />
+      <scope id="6914907434145664119" at="50,0,60,0" />
     </file>
   </root>
 </debug-info>

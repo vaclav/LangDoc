@@ -60,7 +60,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Horizontal());
     editorCell.setCellId("Collection_wq8h9k_a0");
     Style style = new StyleImpl();
-    new CommentStyleClass(getEditorContext(), getNode()).apply(style, editorCell);
+    new CommentStyleClass(this).apply(style, editorCell);
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(createConstant_0());
     editorCell.addEditorCell(createRefNode_0());
@@ -73,14 +73,14 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
     return editorCell;
   }
   private EditorCell createRefNode_0() {
-    SingleRoleCellProvider provider = new textSingleRoleHandler_wq8h9k_b0a_0(myNode, LINKS.text$HMYG, getEditorContext());
+    SingleRoleCellProvider provider = new textSingleRoleHandler_wq8h9k_b0a(myNode, LINKS.text$HMYG, getEditorContext());
     return provider.createCell();
   }
-  private static class textSingleRoleHandler_wq8h9k_b0a_0 extends SingleRoleCellProvider {
+  private static class textSingleRoleHandler_wq8h9k_b0a extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public textSingleRoleHandler_wq8h9k_b0a_0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public textSingleRoleHandler_wq8h9k_b0a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }

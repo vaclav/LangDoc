@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root nodeRef="r:d496a934-44f2-44f3-ba61-902e6613520f(jetbrains.mps.LangDoc.sandbox)/6914907434145734272">
     <file name="Foo.java">
       <node id="6914907434145734332" at="7,0,8,0" concept="0" trace="bar" />
-      <unit id="6914907434145734272" at="6,0,9,0" name="jetbrains.mps.LangDoc.sandbox.Foo" />
+      <node id="8489467021695139891" at="8,42,9,18" concept="1" />
+      <node id="8489467021695139545" at="8,0,11,0" concept="2" trace="main#([Ljava/lang/String;)V" />
+      <scope id="8489467021695139551" at="8,42,9,18" />
+      <scope id="8489467021695139545" at="8,0,11,0">
+        <var name="args" id="8489467021695139546" />
+      </scope>
+      <unit id="6914907434145734272" at="6,0,12,0" name="jetbrains.mps.LangDoc.sandbox.Foo" />
     </file>
   </root>
 </debug-info>

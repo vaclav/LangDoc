@@ -5,4 +5,7 @@ package jetbrains.mps.LangDoc.sandbox;
 
 public class Foo {
   private int bar = 10;
+  public static void main(String[] args) {
+    // hello there
+  }
 }

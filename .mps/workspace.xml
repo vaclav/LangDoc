@@ -7,7 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c185786-14b2-424d-8480-88f01ea346b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/classes_gen/jetbrains/mps/LangDoc/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/jetbrains.mps.LangDoc.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/jetbrains.mps.LangDoc.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen.caches/jetbrains/mps/LangDoc/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen.caches/jetbrains/mps/LangDoc/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/editor/DocBit_InlineDocBits_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/editor/DocBit_InlineDocBits_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/editor/DocBit_InlineDocBits_InspectorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/editor/DocBit_InlineDocBits_InspectorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/jetbrains.mps.LangDoc/source_gen/jetbrains/mps/LangDoc/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/classes_gen/jetbrains/mps/LangDoc/build/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/classes_gen/jetbrains/mps/LangDoc/build/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/models/jetbrains.mps.LangDoc.build.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/models/jetbrains.mps.LangDoc.build.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/source_gen.caches/jetbrains/mps/LangDoc/build/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/source_gen.caches/jetbrains/mps/LangDoc/build/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/source_gen/jetbrains/mps/LangDoc/build/LangDoc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/source_gen/jetbrains/mps/LangDoc/build/LangDoc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/source_gen/jetbrains/mps/LangDoc/build/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.LangDoc.build/source_gen/jetbrains/mps/LangDoc/build/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +45,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="085b95a8-7f76-4f49-bad9-ff74afcb084d/r:2f41fd91-0351-4ff0-a098-882ce7173bac(TempModule085b95a8-7f76-4f49-bad9-ff74afcb084d/ConsoleModel_74920368567773)">
+            <model ref="081ef36f-bd7f-4356-9212-975f31a0dd36/r:60edce8b-bec8-45a9-bee0-5729e6aa4674(TempModule081ef36f-bd7f-4356-9212-975f31a0dd36/ConsoleModel_52900282278291)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -53,11 +65,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="4vhP$DheG$b">
-                <node concept="3balQm" id="4vhP$DheG$c" role="aymYE" />
-                <node concept="2Clz$F" id="4vhP$DheG$d" role="aymYO" />
-                <node concept="2_V_lH" id="4vhP$DheG$e" role="1PhJh3">
-                  <ref role="2_V_lI" node="4vhP$DheG$d" resolve="CommandHolder" />
+              <node concept="aymSD" id="2ssMV9s0mPP">
+                <node concept="3balQm" id="2ssMV9s0mPQ" role="aymYE" />
+                <node concept="2Clz$F" id="2ssMV9s0mPR" role="aymYO" />
+                <node concept="2_V_lH" id="2ssMV9s0mPS" role="1PhJh3">
+                  <ref role="2_V_lI" node="2ssMV9s0mPR" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -352,16 +364,11 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="LangDoc" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ddb34e7d-3cd8-455b-8223-dcc14bd73cf2" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,6 +392,12 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Modules Pool" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="LangDoc" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -403,15 +416,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="a23383a3-9564-4399-8643-72063c6111dc(jetbrains.mps.LangDoc)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains.mps.LangDoc#01" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:6a98abcd-f1f1-4872-95c6-5dd5a6ae43d3(main@generator) in IdeaFile[path: /Users/vaclav/work/mps_projects/LangDoc/languages/jetbrains.mps.LangDoc/generator/template/main@generator.mps]" />
+              <option name="myItemId" value="ddb34e7d-3cd8-455b-8223-dcc14bd73cf2" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -436,32 +441,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="a23383a3-9564-4399-8643-72063c6111dc(jetbrains.mps.LangDoc)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Modules Pool" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LangDoc" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LangDoc" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="a23383a3-9564-4399-8643-72063c6111dc(jetbrains.mps.LangDoc)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetbrains.mps.LangDoc#01" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -517,6 +496,7 @@
           </SELECTED>
         </subPane>
       </pane>
+      <pane id="FileSystem" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -546,12 +526,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;/Users/vaclav/work/mps_projects/LangDoc&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;trusted.hosts&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/vaclav/work/mps_projects/LangDoc",
+    "settings.editor.selected.configurable": "trusted.hosts"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Build Script.LangDoc">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />

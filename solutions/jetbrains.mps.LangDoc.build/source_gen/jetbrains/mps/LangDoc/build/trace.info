@@ -2,7 +2,7 @@
 <debug-info version="2">
   <root nodeRef="r:66fba810-b285-4d4c-a12e-ace82eebf017(jetbrains.mps.LangDoc.build)/6914907434147236742">
     <file name="LangDoc.xml">
-      <unit id="6914907434147236742" at="1,0,554,10" name="jetbrains.mps.LangDoc.build.LangDoc" />
+      <unit id="6914907434147236742" at="1,0,558,10" name="jetbrains.mps.LangDoc.build.LangDoc" />
     </file>
   </root>
 </debug-info>
